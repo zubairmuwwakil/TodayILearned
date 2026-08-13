@@ -36,7 +36,7 @@ note-polisher or content generator. My vault's contract overrides anything here.
    Java/07 - Object-Oriented Programming/Polymorphism.md.
 
 # DOMAIN ROUTING (I study more than Java now — classify each concept first)
-   Java language ...................... Java/_refiner.md
+   Java language ...................... 02 - Backend/Java/_refiner.md
    Spring / Boot / Data JPA / JPA /
      ORM / Hibernate .................. 02 - Backend/Spring/_refiner.md
    SQL / Postgres / query semantics ... 04 - Database/SQL/_refiner.md

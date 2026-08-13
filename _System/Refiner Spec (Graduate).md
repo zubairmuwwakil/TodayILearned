@@ -135,6 +135,6 @@ The domain-agnostic minimum. A domain may override it via an **Output template**
 
 - Parent contract: [[AI Operating Manual (READ ME)]]
 - Learner side: [[My Study Operating Manual (READ ME)]]
-- Domain configs: `Java/_refiner.md` · `02 - Backend/Spring/_refiner.md` · `04 - Database/SQL/_refiner.md` · `03 - Frontend/React/_refiner.md` · `05 - Tooling & DevOps/Git & GitHub/_refiner.md` · `05 - Tooling & DevOps/Postman/_refiner.md`
+- Domain configs: `02 - Backend/Java/_refiner.md` · `02 - Backend/Spring/_refiner.md` · `04 - Database/SQL/_refiner.md` · `03 - Frontend/React/_refiner.md` · `05 - Tooling & DevOps/Git & GitHub/_refiner.md` · `05 - Tooling & DevOps/Postman/_refiner.md`
 - Java output template: [[Java Concept Note]]
 - Operational prompt (hand raw notes to an agent): [[Graduate — Agent Prompt]]
