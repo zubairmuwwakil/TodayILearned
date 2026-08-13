@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Terminal Operations
+  - Collectors
 type: concept
 topic: functional-programming
 status: learning

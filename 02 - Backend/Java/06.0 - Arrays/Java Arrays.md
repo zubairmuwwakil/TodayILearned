@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Arrays in Java
 type: concept
 topic: arrays
 status: learning

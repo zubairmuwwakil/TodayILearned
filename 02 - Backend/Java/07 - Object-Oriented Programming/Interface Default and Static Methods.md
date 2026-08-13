@@ -149,5 +149,5 @@ When you miss one, add it to [[Abstraction Polymorphism and Methods Mistake Log]
 ## Links
 - Contrast: [[Abstract Classes]] (hold state + constructors) vs interface default methods (behaviour only, no instance fields)
 - Map: [[Polymorphism MOC]]
-- Related: [[Interfaces]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] · [[Abstraction in Java]]
+- Related: [[Interfaces]] · [[Method Overriding]] · [[Abstraction in Java]]
 - Prerequisites: [[Interfaces]] · [[Polymorphism]]

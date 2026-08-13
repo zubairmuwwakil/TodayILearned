@@ -13,26 +13,26 @@ type: moc
 
 ## Design Principles
 
-- [[01-SOLID/01-SOLID-Design-Principles|SOLID Design Principles]]
+- [[01-SOLID-Design-Principles|SOLID Design Principles]]
 
 ## Inheritance in Depth
 
-- [[02-InheritanceInDepth/01-The-Super-Keyword|The `super` Keyword]]
-- [[02-InheritanceInDepth/02-Object-Superclass|The `Object` Superclass]]
-- [[02-InheritanceInDepth/03-Inheritance-and-Constructors|Inheritance and Constructors]]
+- [[01-The-Super-Keyword|The `super` Keyword]]
+- [[02-Object-Superclass|The `Object` Superclass]]
+- [[03-Inheritance-and-Constructors|Inheritance and Constructors]]
 
 ## Class-Level Members
 
-- [[03-StaticMembers/01-Static-Variables-and-Methods|Static Variables and Methods]]
+- [[01-Static-Variables-and-Methods|Static Variables and Methods]]
 
 ## Exception Handling
 
-- [[04-ExceptionHandling/01-Try-Catch-and-Finally|Try, Catch, and Finally]]
-- [[04-ExceptionHandling/02-Catching-Multiple-Exceptions|Catching Multiple Exceptions]]
+- [[01-Try-Catch-and-Finally|Try, Catch, and Finally]]
+- [[02-Catching-Multiple-Exceptions|Catching Multiple Exceptions]]
 
 ## Retrieval Practice
 
-- [[05-Practice/01-OOP-Exceptions-Review|OOP and Exception Handling Review]]
+- [[01-OOP-Exceptions-Review|OOP and Exception Handling Review]]
 
 ## High-ROI Connections
 

@@ -166,5 +166,5 @@ Log misses to [[Abstraction Polymorphism and Methods Mistake Log]] as: wrong out
 ## Links
 - Contrast: [[Interfaces]] — abstract class (one parent, can hold state + constructors) vs interface (multiple, no instance state)
 - Map: [[Polymorphism MOC]]
-- Related: [[Abstraction in Java]] · [[Polymorphism]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]]
+- Related: [[Abstraction in Java]] · [[Polymorphism]] · [[Method Overriding]]
 - Prerequisites: [[Inheritance in Java]] · [[01-The-Super-Keyword]]

@@ -236,7 +236,7 @@ Create a `Book` class with `title`, `author`, and `isbn`, then (predict each res
 Log misses to [[Abstraction Polymorphism and Methods Mistake Log]] as: wrong output → minimal repro → misconception → recall-question form → fix.
 
 ## Links
-- Contrast: [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] (a real override of `equals`) vs the silent `equals(Person)` overload trap
+- Contrast: [[Method Overriding]] (a real override of `equals`) vs the silent `equals(Person)` overload trap
 - Map: [[Polymorphism MOC]]
-- Related: [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] · [[Polymorphism]] · [[03-Inheritance-and-Constructors]]
+- Related: [[Method Overriding]] · [[Polymorphism]] · [[03-Inheritance-and-Constructors]]
 - Prerequisites: [[01-The-Super-Keyword]]

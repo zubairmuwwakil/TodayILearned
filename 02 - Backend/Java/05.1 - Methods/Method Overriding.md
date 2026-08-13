@@ -99,7 +99,7 @@ class Manager extends Employee {
 > `describeRole` — the name must match the inherited signature **exactly**. Rename it (e.g. `describeManager`) and `@Override` fails to compile because no parent method matches; drop `@Override` too and you'd silently create a brand-new method that never runs through an `Employee` reference.
 
 ## Common Mistakes
-- Changing the parameter list and calling it overriding → different parameters make it an **overload** ([[50 Resources/Software Engineering/02 - Backend/Java/05.1 - Methods/Method Overloading]], compile-time); the parent version still runs through a parent reference.
+- Changing the parameter list and calling it overriding → different parameters make it an **overload** ([[Method Overloading]], compile-time); the parent version still runs through a parent reference.
 - Narrowing access (`public` → `protected`/private) → an override may only **keep or widen** visibility, never reduce it; the compiler rejects it.
 - Expecting to override a `private` method → `private` methods aren't inherited, so a same-named subclass method is a separate method, not an override.
 - Trying to override a `final` method → `final` forbids overriding; it's a compile error.
@@ -155,7 +155,7 @@ The compiler verifies a real override exists, catching typos and signature misma
 When you miss one, log it to [[Abstraction Polymorphism and Methods Mistake Log]] as: wrong output → minimal repro → misconception → recall-question form → fix.
 
 ## Links
-- Contrast: [[50 Resources/Software Engineering/02 - Backend/Java/05.1 - Methods/Method Overloading]] (compile-time, same name / different params) vs Method Overriding (runtime, same signature)
+- Contrast: [[Method Overloading]] (compile-time, same name / different params) vs Method Overriding (runtime, same signature)
 - Map: [[Polymorphism MOC]]
 - Related: [[Polymorphism]] · [[Abstract Classes]] · [[Interfaces]] · [[Inherited Getters and Setters]]
 - In practice: [[03 - List Interface and Polymorphism]]

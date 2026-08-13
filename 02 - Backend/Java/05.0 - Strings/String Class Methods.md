@@ -1,4 +1,6 @@
 ---
+aliases:
+  - String Methods
 type: concept
 topic: strings
 status: learning

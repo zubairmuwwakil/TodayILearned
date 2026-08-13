@@ -8,7 +8,7 @@ tags: [java, day-10, moc]
 
 - [[Set Interface and HashSet]]
 - [[LinkedHashSet]]
-- [[50 Resources/Software Engineering/02 - Backend/Java/06.1 - Collections/03 - Sets/TreeSet]]
+- [[TreeSet]]
 - [[Set Implementations Comparison]]
 
 ## Maps

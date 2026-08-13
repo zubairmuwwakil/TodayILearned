@@ -144,4 +144,4 @@ When you miss one, log it to [[Streams Mistake Log]] as: wrong output → minima
 - Contrast: [[Streams vs Loops]] (internal vs external iteration)
 - Map: [[Streams MOC]]
 - Related: [[Intermediate Operations]] · [[Terminal Operations]] · [[Method References]]
-- Prerequisites: [[Lambda Expressions]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 11 jul 20/Functional Interfaces and Lambda Expressions/Functional Interfaces]]
+- Prerequisites: [[Lambda Expressions]] · [[Functional Interfaces]]

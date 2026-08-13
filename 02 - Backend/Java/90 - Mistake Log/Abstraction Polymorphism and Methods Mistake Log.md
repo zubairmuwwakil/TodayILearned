@@ -113,5 +113,5 @@ This does not identify the incorrect rule.
 - [[Abstract Classes]]
 - [[Interfaces]]
 - [[Polymorphism]]
-- [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]]
-- [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/Method Overloading]]
+- [[Method Overriding]]
+- [[Method Overloading]]

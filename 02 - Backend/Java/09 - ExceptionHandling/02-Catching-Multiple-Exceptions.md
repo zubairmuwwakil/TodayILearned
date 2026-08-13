@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Multi-Catch
 type: concept
 topic: exception-handling
 status: learning

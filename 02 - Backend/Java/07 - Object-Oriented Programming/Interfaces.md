@@ -179,4 +179,4 @@ When you miss one, log it to [[Abstraction Polymorphism and Methods Mistake Log]
 - Contrast: [[Abstract Classes]] (single inheritance, can hold state + constructors) vs Interfaces (multiple, contract-only)
 - Map: [[Polymorphism MOC]]
 - Related: [[Abstraction in Java]] · [[Interface Default and Static Methods]] · [[Polymorphism]]
-- Prerequisites: [[Abstraction in Java]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]]
+- Prerequisites: [[Abstraction in Java]] · [[Method Overriding]]

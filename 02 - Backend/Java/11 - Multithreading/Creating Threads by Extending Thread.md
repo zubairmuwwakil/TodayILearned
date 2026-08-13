@@ -143,5 +143,5 @@ Log misses to [[Multithreading Mistake Log]] as: wrong output -> minimal repro -
 - Contrast: [[Creating Threads with Runnable]]
 - Map: [[Multithreading MOC]]
 - Related: [[Thread Lifecycle]] · [[Thread Methods]]
-- Prerequisites: [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/day 7 jul 14/Concepts/Inheritance and Constructors]]
+- Prerequisites: [[Method Overriding]] · [[03-Inheritance-and-Constructors|Inheritance and Constructors]]
 

@@ -57,7 +57,7 @@ Cross-cutting maps that pull scattered notes into one theme (link hubs — no co
 
 ### Functional Programming
 - [[Functional Programming MOC]]
-- [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 11 jul 20/Functional Interfaces and Lambda Expressions/Functional Interfaces]]
+- [[Functional Interfaces]]
 - [[Lambda Expressions]]
 - [[Streams MOC]]
 

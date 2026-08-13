@@ -107,7 +107,7 @@ Progression to aim for: read this labeled example → reorder scrambled lines �
 ## Common Mistakes
 - Treating reference type and object type as the same concept → they are independent.
 - Expecting subclass-only methods through a parent reference → not visible at compile time.
-- Confusing overriding (runtime) with [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/Method Overloading]] (compile time).
+- Confusing overriding (runtime) with [[Method Overloading]] (compile time).
 - Assuming **fields** are dynamically dispatched → only overridden *instance methods* are.
 - Casting to a subclass without checking the actual object first → `ClassCastException`.
 
@@ -144,7 +144,7 @@ The *object's runtime type* — Java uses dynamic dispatch (virtual method looku
 When you miss one, add it to [[Abstraction Polymorphism and Methods Mistake Log]] as: wrong output → minimal repro → misconception → recall-question form → fix.
 
 ## Links
-- Contrast: [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] (runtime) vs [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/Method Overloading]] (compile time)
+- Contrast: [[Method Overriding]] (runtime) vs [[Method Overloading]] (compile time)
 - Map: [[Polymorphism MOC]]
 - Related: [[Interfaces]] · [[Abstract Classes]] · [[Abstraction in Java]]
 - In practice: [[03 - List Interface and Polymorphism]]

@@ -9,6 +9,7 @@ tags:
   - functional-programming
   - day-10
 aliases:
+  - Stream Basics
   - What Are Streams
 ---
 # Java Streams Overview
@@ -168,4 +169,4 @@ When you miss one, log it to [[Streams and Lambdas Mistake Log]] as: wrong outpu
 - Contrast: [[Streams vs Loops]] (declarative pipeline vs imperative loop)
 - Map: [[Functional Programming MOC]]
 - Related: [[Intermediate vs Terminal Operations]] · [[Method References]] · [[Collectors]] · [[Optional]]
-- Prerequisites: [[Lambda Expressions]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 11 jul 20/Functional Interfaces and Lambda Expressions/Functional Interfaces]] · [[Java Collections Framework]]
+- Prerequisites: [[Lambda Expressions]] · [[Functional Interfaces]] · [[Java Collections Framework]]

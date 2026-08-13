@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Strings in Java
+  - String
 type: concept
 topic: fundamentals
 status: learning

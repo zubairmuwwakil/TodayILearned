@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Variables in Java
+  - Variables and Assignment
   - Variables and Data Types
   - Variables
 type: concept

@@ -159,5 +159,5 @@ Log misses to [[Collections Mistake Log]] as: wrong output → minimal repro →
 
 - Contrast: [[List Implementations Comparison]] (ordered, indexed, allows duplicates) vs Set (unique, membership-focused)
 - Map: [[Collections MOC]]
-- Related: [[HashSet]] · [[LinkedHashSet]] · [[50 Resources/Software Engineering/02 - Backend/Java/06.1 - Collections/03 - Sets/TreeSet]] · [[Map Implementations Comparison]]
+- Related: [[HashSet]] · [[LinkedHashSet]] · [[TreeSet]] · [[Map Implementations Comparison]]
 - Prerequisites: [[Set Interface]] · [[equals and hashCode]] · [[Comparable and Comparator]]

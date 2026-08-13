@@ -205,6 +205,6 @@ When you miss one, log it to [[Abstraction Polymorphism and Methods Mistake Log]
 ## Links
 - Contrast: [[The this Keyword]] (own class) vs `super` (parent slice)
 - Map: [[Inheritance MOC]]
-- Related: [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] · [[02-Object-Superclass]] · [[Constructors in Java]]
+- Related: [[Method Overriding]] · [[02-Object-Superclass]] · [[Constructors in Java]]
 - In practice: [[Polymorphism]]
 - Prerequisites: [[Inheritance in Java]]

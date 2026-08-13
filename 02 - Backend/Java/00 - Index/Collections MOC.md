@@ -23,7 +23,7 @@ tags:
 ## Set
 - [[Set Interface and HashSet]]
 - [[LinkedHashSet]]
-- [[50 Resources/Software Engineering/02 - Backend/Java/06.1 - Collections/03 - Sets/TreeSet]]
+- [[TreeSet]]
 - [[Set Implementations Comparison]]
 
 ## Map
@@ -48,3 +48,7 @@ Answer before peeking at the notes:
 
 ## Review & practice
 - [[07 - Collections Practice and Review]]
+
+## Instructor-Led Sessions
+
+- [[00 - Day 09 Collections MOC]] — Day 09 walkthrough

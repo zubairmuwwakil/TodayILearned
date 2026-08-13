@@ -177,5 +177,5 @@ Log misses to [[Abstraction Polymorphism and Methods Mistake Log]] as: wrong out
 
 - Contrast: [[Access Modifiers]] — `protected` field (direct subclass access) vs `private` field (accessor-only)
 - Map: [[Java MOC]]
-- Related: [[Abstraction in Java]] · [[Abstract Classes]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] · [[Interfaces]]
+- Related: [[Abstraction in Java]] · [[Abstract Classes]] · [[Method Overriding]] · [[Interfaces]]
 - Prerequisites: [[02-Object-Superclass]] · [[01-The-Super-Keyword]] · [[03-Inheritance-and-Constructors]]

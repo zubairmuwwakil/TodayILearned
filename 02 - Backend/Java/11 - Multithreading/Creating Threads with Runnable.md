@@ -143,6 +143,6 @@ Log misses to [[Multithreading Mistake Log]] as: wrong output -> minimal repro -
 
 - Contrast: [[Creating Threads by Extending Thread]]
 - Map: [[Multithreading MOC]]
-- Related: [[Thread Methods]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 11 jul 20/Functional Interfaces and Lambda Expressions/Functional Interfaces]] · [[Lambda Expressions]]
+- Related: [[Thread Methods]] · [[Functional Interfaces]] · [[Lambda Expressions]]
 - Prerequisites: [[Interfaces]] · [[Polymorphism]]
 

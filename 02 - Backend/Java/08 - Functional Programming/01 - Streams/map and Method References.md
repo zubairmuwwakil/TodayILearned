@@ -164,4 +164,4 @@ When you miss one, log it to [[Streams Mistake Log]] as: wrong output → minima
 - Contrast: [[filter and Predicate]] (selects) vs `map` (transforms)
 - Map: [[Java Streams Overview]] · [[Day 10 - MOC]]
 - Related: [[Stream Pipeline Syntax]] · [[Terminal Operations and Collectors]] · [[Streams vs Loops]]
-- Prerequisites: [[Java Streams Overview]] · [[Lambda Expressions]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 11 jul 20/Functional Interfaces and Lambda Expressions/Functional Interfaces]]
+- Prerequisites: [[Java Streams Overview]] · [[Lambda Expressions]] · [[Functional Interfaces]]

@@ -11,6 +11,7 @@ tags:
   - performance
   - list
 aliases:
+  - List Implementations Comparison
   - ArrayList versus LinkedList
 ---
 # ArrayList vs LinkedList

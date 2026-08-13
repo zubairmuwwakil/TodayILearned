@@ -148,5 +148,5 @@ When you miss one, log it to [[Streams Mistake Log]] as: wrong output → minima
 ## Links
 - Contrast: [[map and Function]] — transforms every element (`Function` → new value) vs `filter`, which *selects* elements (`Predicate` → `boolean`).
 - Map: [[Streams MOC]]
-- Related: [[Lambda Expressions]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 11 jul 20/Functional Interfaces and Lambda Expressions/Functional Interfaces]] · [[Method References]] · [[reduce and BinaryOperator]]
+- Related: [[Lambda Expressions]] · [[Functional Interfaces]] · [[Method References]] · [[reduce and BinaryOperator]]
 - Prerequisites: [[Lambda Expressions]] · [[Stream Creation]]

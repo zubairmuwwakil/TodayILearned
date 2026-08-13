@@ -16,8 +16,8 @@ A **reference type** decides what you can *call at compile time*; the **object's
 
 ## Core notes
 - [[Polymorphism]] — the runtime-dispatch idea itself
-- [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/method overriding]] — runtime substitution of behaviour
-- [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/Method Overloading]] — compile-time selection by argument list *(contrast with overriding)*
+- [[Method Overriding]] — runtime substitution of behaviour
+- [[Method Overloading]] — compile-time selection by argument list *(contrast with overriding)*
 - [[Interfaces]] — polymorphism without inheritance
 - [[Abstract Classes]] — partial implementation + forced overrides
 - [[Abstraction in Java]] — the principle polymorphism serves

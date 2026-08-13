@@ -40,9 +40,20 @@ note-polisher or content generator. My vault's contract overrides anything here.
    Spring / Boot / Data JPA / JPA /
      ORM / Hibernate .................. 02 - Backend/Spring/_refiner.md
    SQL / Postgres / query semantics ... 04 - Database/SQL/_refiner.md
-   React / HTML / CSS ................. 03 - Frontend/React/_refiner.md
-   Git / GitHub ....................... 05 - Tooling & DevOps/Git & GitHub/_refiner.md
+   React .............................. 03 - Frontend/React/_refiner.md
+   HTML / semantic markup / forms /
+     accessibility .................... 03 - Frontend/HTML/_refiner.md
+   CSS ................................ 03 - Frontend/CSS/  — NO CONFIG YET.
+     Do not borrow another domain's; create it per the spec's
+     *Adding a new domain* section and ASK before graduating.
+   Git / GitHub (command semantics,
+     branching, remotes) .............. 05 - Tooling & DevOps/Git & GitHub/_refiner.md
+   CI/CD / GitHub Actions / pipelines /
+     workflow YAML .................... 05 - Tooling & DevOps/CI-CD/_refiner.md
    Postman ............................ 05 - Tooling & DevOps/Postman/_refiner.md
+   Maven / POM / build lifecycle ...... 05 - Tooling & DevOps/Maven/_refiner.md
+   Cross-cutting: JSON / XML / HTTP /
+     REST / architecture patterns ..... 01 - Foundations/Architecture & APIs/_refiner.md
 - Cross-domain concept → put the note in the PRIMARY domain's folder and LINK to
   the others. Never duplicate across domains.
 - The vault uses a LAYER taxonomy: 01 - Foundations / 02 - Backend /

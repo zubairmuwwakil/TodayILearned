@@ -9,6 +9,7 @@ tags:
   - iterator
   - interfaces
 aliases:
+  - Iterator Interface
   - Java Iterator
 ---
 # Iterator Interface

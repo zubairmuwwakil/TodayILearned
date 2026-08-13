@@ -24,7 +24,7 @@ Changing **only the return type** does **not** create a valid overload — the p
 
 ## Why it matters
 
-One operation name works with many input shapes, so callers learn a single verb (`add`, `print`, `valueOf`) instead of `addInts`, `addDoubles`, `addThree`. This is *ad-hoc* (compile-time) polymorphism — contrast the *runtime* dispatch of [[50 Resources/Software Engineering/02 - Backend/Java/05.1 - Methods/Method Overriding]]. Because selection happens at compile time from static types, the chosen overload is fixed once the code compiles.
+One operation name works with many input shapes, so callers learn a single verb (`add`, `print`, `valueOf`) instead of `addInts`, `addDoubles`, `addThree`. This is *ad-hoc* (compile-time) polymorphism — contrast the *runtime* dispatch of [[Method Overriding]]. Because selection happens at compile time from static types, the chosen overload is fixed once the code compiles.
 
 ## Syntax / Pattern
 
@@ -100,7 +100,7 @@ class Printer {
 ## Common Mistakes
 
 - Overloading by changing **only the return type** → parameter lists must differ; identical lists = compile error.
-- Confusing overloading with [[50 Resources/Software Engineering/02 - Backend/Java/05.1 - Methods/Method Overriding]] → overloading is one class + compile-time selection; overriding is subclass + runtime dispatch.
+- Confusing overloading with [[Method Overriding]] → overloading is one class + compile-time selection; overriding is subclass + runtime dispatch.
 - Expecting the **runtime** object type to pick the overload → overloading uses the *static/declared* type of each argument, decided at compile time.
 - Writing overloads that are **ambiguous** (e.g. `f(int, long)` and `f(long, int)` called as `f(1, 2)`) → the compiler reports an ambiguity error.
 - Piling on many near-identical overloads → sometimes distinct method names read more clearly than a wall of overloads.
@@ -131,7 +131,7 @@ No. If two methods have identical parameter lists, differing only in return type
 
 Is overloading resolved at compile time or runtime, and using what information?
 ?
-Compile time, using the *static/declared* types of the arguments. (Contrast [[50 Resources/Software Engineering/02 - Backend/Java/05.1 - Methods/Method Overriding]], which is resolved at runtime by the object's actual type.)
+Compile time, using the *static/declared* types of the arguments. (Contrast [[Method Overriding]], which is resolved at runtime by the object's actual type.)
 
 How is overloading different from overriding?
 ?
@@ -149,7 +149,7 @@ Log misses to [[Abstraction Polymorphism and Methods Mistake Log]] as: wrong out
 
 ## Links
 
-- Contrast: [[50 Resources/Software Engineering/02 - Backend/Java/05.1 - Methods/Method Overriding]] (runtime, dynamic dispatch) vs Method Overloading (compile time, static types)
+- Contrast: [[Method Overriding]] (runtime, dynamic dispatch) vs Method Overloading (compile time, static types)
 - Map: [[Polymorphism MOC]] · [[Java MOC]]
 - Related: [[Polymorphism]]
 - Prerequisites: [[Defining and Calling Methods]] · [[Java Data Types]]

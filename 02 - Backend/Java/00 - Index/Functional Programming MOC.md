@@ -14,7 +14,7 @@ tags:
 > [!info] Small behavior values and declarative data pipelines.
 
 ## Foundations
-- [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 11 jul 20/Functional Interfaces and Lambda Expressions/Functional Interfaces]]
+- [[Functional Interfaces]]
 - [[Lambda Expressions]]
 
 ## Streams

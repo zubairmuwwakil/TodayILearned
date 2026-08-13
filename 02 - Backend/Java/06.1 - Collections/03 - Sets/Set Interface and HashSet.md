@@ -43,7 +43,7 @@ Set<String> tags = new HashSet<>();   // declare with the INTERFACE type
 tags.add("java");                      // returns true if newly added
 ```
 
-Declaring the variable as `Set` (not `HashSet`) lets you later swap in [[LinkedHashSet]] or [[50 Resources/Software Engineering/02 - Backend/Java/06.1 - Collections/03 - Sets/TreeSet]] without touching call sites.
+Declaring the variable as `Set` (not `HashSet`) lets you later swap in [[LinkedHashSet]] or [[TreeSet]] without touching call sites.
 
 ## Worked Example
 
@@ -205,7 +205,7 @@ System.out.println(numbers.add(30));      // false
 When you miss one, add it to [[Collections Mistake Log]] as: wrong output → minimal repro → misconception → recall-question form → fix.
 
 ## Links
-- Contrast: [[50 Resources/Software Engineering/02 - Backend/Java/06.1 - Collections/03 - Sets/TreeSet]] (sorted) · [[LinkedHashSet]] (insertion order) · [[List Interface and ArrayList]] (duplicates + index)
+- Contrast: [[TreeSet]] (sorted) · [[LinkedHashSet]] (insertion order) · [[List Interface and ArrayList]] (duplicates + index)
 - Map: [[Collections MOC]]
 - Related: [[HashMap]] · [[equals and hashCode]] · [[Iterating Collections]]
 - Prerequisites: [[Java Collections Framework]] · [[Generics]]

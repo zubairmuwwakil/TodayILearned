@@ -121,7 +121,7 @@ When you miss one, add it to [[Collections Mistake Log]] as: wrong output → mi
 
 ## Links
 
-- Contrast: [[HashSet]] (no order guarantee) vs [[LinkedHashSet]] (insertion order) vs [[50 Resources/Software Engineering/02 - Backend/Java/06.1 - Collections/03 - Sets/TreeSet]] (sorted)
+- Contrast: [[HashSet]] (no order guarantee) vs [[LinkedHashSet]] (insertion order) vs [[TreeSet]] (sorted)
 - Map: [[Collections MOC]]
 - Related: [[Set Interface]] · [[LinkedHashMap]] · [[hashCode and equals]]
 - Prerequisites: [[HashSet]] · [[Set Interface]]

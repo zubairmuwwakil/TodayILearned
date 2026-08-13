@@ -126,7 +126,7 @@ The domain-agnostic minimum. A domain may override it via an **Output template**
 
 ## Adding a new domain
 
-1. Create `<Domain>/_refiner.md` from the schema used by the existing configs ([[50 Resources/Software Engineering/04 - Database/SQL/_refiner]] in any domain folder is the model).
+1. Create `<Domain>/_refiner.md` from the schema used by the existing configs (`04 - Database/SQL/_refiner.md` in any domain folder is the model).
 2. Fill exactly three things: **target folder**, **flashcard tag**, **correctness checklist**.
 3. Optionally point **Output template** at a richer per-domain note if one exists.
 4. Change nothing in *this* spec — that's the whole point of the split.
@@ -135,6 +135,7 @@ The domain-agnostic minimum. A domain may override it via an **Output template**
 
 - Parent contract: [[AI Operating Manual (READ ME)]]
 - Learner side: [[My Study Operating Manual (READ ME)]]
-- Domain configs: `02 - Backend/Java/_refiner.md` · `02 - Backend/Spring/_refiner.md` · `04 - Database/SQL/_refiner.md` · `03 - Frontend/React/_refiner.md` · `05 - Tooling & DevOps/Git & GitHub/_refiner.md` · `05 - Tooling & DevOps/Postman/_refiner.md`
+- Domain configs (10): `01 - Foundations/Architecture & APIs/_refiner.md` · `02 - Backend/Java/_refiner.md` · `02 - Backend/Spring/_refiner.md` · `03 - Frontend/HTML/_refiner.md` · `03 - Frontend/React/_refiner.md` · `04 - Database/SQL/_refiner.md` · `05 - Tooling & DevOps/CI-CD/_refiner.md` · `05 - Tooling & DevOps/Git & GitHub/_refiner.md` · `05 - Tooling & DevOps/Maven/_refiner.md` · `05 - Tooling & DevOps/Postman/_refiner.md`
+- Domains still missing a config (create per *Adding a new domain*, don't improvise): **CSS**, **Eclipse**
 - Java output template: [[Java Concept Note]]
 - Operational prompt (hand raw notes to an agent): [[Graduate — Agent Prompt]]

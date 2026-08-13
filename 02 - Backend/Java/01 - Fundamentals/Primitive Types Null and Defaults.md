@@ -1,4 +1,7 @@
 ---
+aliases:
+  - Primitive Types
+  - Primitive Data Types
 type: concept
 topic: fundamentals
 status: learning

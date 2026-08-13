@@ -18,7 +18,7 @@ tags:
 
 A lambda expression is a compact way to provide the implementation of a functional interface's single abstract method.
 
-In Java, a lambda needs a target type, usually a [[50 Resources/Software Engineering/02 - Backend/Java/08 - Functional Programming/00 - Functional Interfaces and Lambdas/Functional Interfaces|functional interface]], so the compiler knows the expected parameters and return type.
+In Java, a lambda needs a target type, usually a [[Functional Interfaces|functional interface]], so the compiler knows the expected parameters and return type.
 
 ## Why it matters
 
@@ -132,6 +132,6 @@ Log misses to [[Streams Mistake Log]] as: wrong output -> minimal repro -> misco
 
 - Contrast: [[Anonymous Classes]]
 - Map: [[Functional Programming MOC]]
-- Related: [[50 Resources/Software Engineering/02 - Backend/Java/08 - Functional Programming/00 - Functional Interfaces and Lambdas/Functional Interfaces]] · [[Java Streams Overview]] · [[map and Method References]] · [[Creating Threads with Runnable]]
-- Prerequisites: [[Interfaces]] · [[20 Areas/Education/Obsidi Academy/Sessions/Java/Day 6 Jul 13/Method Overloading]]
+- Related: [[Functional Interfaces]] · [[Java Streams Overview]] · [[map and Method References]] · [[Creating Threads with Runnable]]
+- Prerequisites: [[Interfaces]] · [[Method Overloading]]
 
