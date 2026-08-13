@@ -1,0 +1,1252 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/xfv4zg",
+    "id": "xfv4zg",
+    "slide": 10,
+    "layoutId": "35b068e9-2f76-49f0-98a2-c6d50934d46d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "c6871ba8-d40a-40ca-bc3a-63dff58b2a53",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "35b068e9-2f76-49f0-98a2-c6d50934d46d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "c6871ba8-d40a-40ca-bc3a-63dff58b2a53",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "c6871ba8-d40a-40ca-bc3a-63dff58b2a53",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu9ob2tg",
+      "id": "1",
+      "name": "Google-Shape-532-p58-2",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "fontSize": 13.33,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "fontSize": 13.33,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "right",
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "anchor": 3,
+              "fontSize": 13.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "right",
+              "verticalAlignment": "bottom",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vipk7u1",
+      "id": "2",
+      "name": "Google-Shape-533-p58-3",
+      "bbox": [
+        41.33,
+        36.12,
+        1197.33,
+        109.97
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1"
+      },
+      "geometry": "rect",
+      "text": "One call takes two forms",
+      "textPreview": "One call takes two forms",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38.67,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "One call takes two forms"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "One call takes two forms",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "fontSize": 38.67,
+            "typeface": "Helvetica Neue",
+            "color": "#000000",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "One call takes two forms",
+              "anchor": 1,
+              "fontSize": 38.67,
+              "typeface": "Helvetica Neue",
+              "color": "#000000",
+              "alignment": "left",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wr6dcb6",
+      "id": "3",
+      "name": "Google-Shape-534-p58-4",
+      "bbox": [
+        41.33,
+        213.33,
+        581.33,
+        371.11
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2"
+      },
+      "geometry": "rect",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpg7excj",
+      "id": "4",
+      "name": "Content-Placeholder-3-5",
+      "bbox": [
+        656.86,
+        213.33,
+        581.33,
+        371.11
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "Helvetica Neue",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqpo72t4",
+      "id": "5",
+      "name": "Kicker-LIVE-DEMO-•-PREDICT-BEFORE-RUNNING",
+      "bbox": [
+        41,
+        128,
+        620,
+        32
+      ],
+      "geometry": "rect",
+      "text": "LIVE DEMO • PREDICT BEFORE RUNNING",
+      "textPreview": "LIVE DEMO • PREDICT BEFORE RUNNING",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Helvetica Neue",
+        "color": "#3D8DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LIVE DEMO • PREDICT BEFORE RUNNING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LIVE DEMO • PREDICT BEFORE RUNNING",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Helvetica Neue",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LIVE DEMO • PREDICT BEFORE RUNNING",
+              "fontSize": 19,
+              "typeface": "Helvetica Neue",
+              "color": "#3D8DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sripg7up",
+      "id": "6",
+      "name": "Live-Demo-Code-Background",
+      "bbox": [
+        41,
+        184,
+        582,
+        422
+      ],
+      "geometry": "rect",
+      "fillColor": "#F6F6F6",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsr69cba",
+      "id": "7",
+      "name": "Live-Demo-Code-Highlight-6",
+      "bbox": [
+        50,
+        357,
+        564,
+        31
+      ],
+      "geometry": "rect",
+      "fillColor": "#D0EDFA",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alk7q1s3",
+      "id": "8",
+      "name": "Live-Demo-Code-Highlight-7",
+      "bbox": [
+        50,
+        389,
+        564,
+        31
+      ],
+      "geometry": "rect",
+      "fillColor": "#D0EDFA",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmt8jmto",
+      "id": "9",
+      "name": "Live-Demo-Code",
+      "bbox": [
+        57,
+        196,
+        550,
+        398
+      ],
+      "geometry": "rect",
+      "text": "List<Human> classroom = List.of(\n    new Student(\"Zub\"),\n    new Teacher(\"Maya\")\n);\n\nfor (Human person : classroom) {\n    person.communicate(message);\n}",
+      "textPreview": "List<Human> classroom = List.of( |     new Student(\"Zub\"), |     new Teacher(\"Maya\") | ); |  | for (Human person : classroom) { |     per...",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Menlo",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "List<Human> classroom = List.of("
+          },
+          {
+            "index": 2,
+            "text": "    new Student(\"Zub\"),"
+          },
+          {
+            "index": 3,
+            "text": "    new Teacher(\"Maya\")"
+          },
+          {
+            "index": 4,
+            "text": ");"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "for (Human person : classroom) {"
+          },
+          {
+            "index": 7,
+            "text": "    person.communicate(message);"
+          },
+          {
+            "index": 8,
+            "text": "}"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "List<Human> classroom = List.of(",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "List<Human> classroom = List.of(",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "    new Student(\"Zub\"),",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    ",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            },
+            {
+              "index": 2,
+              "text": "new",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": " Student(\"Zub\"),",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "    new Teacher(\"Maya\")",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    ",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            },
+            {
+              "index": 2,
+              "text": "new",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": " Teacher(\"Maya\")",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": ");",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": ");",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "for (Human person : classroom) {",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "for",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": " (Human person : classroom) {",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "    person.communicate(message);",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    person.communicate(message);",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "}",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "}",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6d8jap0",
+      "id": "10",
+      "name": "Live-Demo-Output-Background",
+      "bbox": [
+        657,
+        184,
+        582,
+        422
+      ],
+      "geometry": "rect",
+      "fillColor": "#F6F6F6",
+      "lineColor": "#B8BCC4",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54rq5of",
+      "id": "11",
+      "name": "Live-Demo-Output-Highlight-2",
+      "bbox": [
+        666,
+        229,
+        564,
+        31
+      ],
+      "geometry": "rect",
+      "fillColor": "#D0EDFA",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h8val076",
+      "id": "12",
+      "name": "Live-Demo-Output-Highlight-3",
+      "bbox": [
+        666,
+        261,
+        564,
+        31
+      ],
+      "geometry": "rect",
+      "fillColor": "#D0EDFA",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7m9sf6l",
+      "id": "13",
+      "name": "Live-Demo-Output-Highlight-4",
+      "bbox": [
+        666,
+        293,
+        564,
+        31
+      ],
+      "geometry": "rect",
+      "fillColor": "#D0EDFA",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3adsnapw",
+      "id": "14",
+      "name": "Live-Demo-Output-Highlight-6",
+      "bbox": [
+        666,
+        357,
+        564,
+        31
+      ],
+      "geometry": "rect",
+      "fillColor": "#D0EDFA",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i94ru5or",
+      "id": "15",
+      "name": "Live-Demo-Output",
+      "bbox": [
+        673,
+        196,
+        550,
+        398
+      ],
+      "geometry": "rect",
+      "text": "OUTPUT\nZub raises a hand.\nZub waits to be called on.\nZub communicates: ...\n\nMaya communicates directly: ...\n\nThe loop and method call never changed.",
+      "textPreview": "OUTPUT | Zub raises a hand. | Zub waits to be called on. | Zub communicates: ... |  | Maya communicates directly: ... |  | The loop and m...",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Menlo",
+        "color": "#000000",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OUTPUT"
+          },
+          {
+            "index": 2,
+            "text": "Zub raises a hand."
+          },
+          {
+            "index": 3,
+            "text": "Zub waits to be called on."
+          },
+          {
+            "index": 4,
+            "text": "Zub communicates: ..."
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "Maya communicates directly: ..."
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": "The loop and method call never changed."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OUTPUT",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OUTPUT",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Zub raises a hand.",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Zub raises a hand.",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Zub waits to be called on.",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Zub waits to be called on.",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Zub communicates: ...",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Zub communicates: ...",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "Maya communicates directly: ...",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Maya communicates directly: ...",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "The loop and method call never changed.",
+          "lineSpacingPercent": 92000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Menlo",
+            "color": "#000000"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The loop and method call never changed.",
+              "fontSize": 21,
+              "typeface": "Menlo",
+              "color": "#000000",
+              "italic": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "baseUnit": 1,
+      "root": {
+        "path": "0",
+        "kind": "layers",
+        "name": "codex-grid-layout-library#slide-05",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 1238.66,
+          "height": 684.57
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "text",
+            "name": "Google-Shape-532-p58-2",
+            "position": {
+              "left": 1184.18,
+              "top": 659.24
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 54.48
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 25.33
+              }
+            },
+            "intrinsicSize": {
+              "width": 54.48,
+              "height": 25.33
+            },
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "snappedFrame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            },
+            "children": [],
+            "text": "10",
+            "transform": "none",
+            "element": {
+              "aid": "sh/fu9ob2tg",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "text",
+            "name": "Google-Shape-533-p58-3",
+            "position": {
+              "left": 41.33,
+              "top": 36.12
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1197.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 109.97
+              }
+            },
+            "intrinsicSize": {
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            },
+            "children": [],
+            "text": "One call takes two forms",
+            "transform": "none",
+            "element": {
+              "aid": "sh/0vipk7u1",
+              "id": "2",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.2",
+            "kind": "text",
+            "name": "Google-Shape-534-p58-4",
+            "position": {
+              "left": 41.33,
+              "top": 213.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 371.11
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 371.11
+            },
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 371.11
+            },
+            "snappedFrame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 371.11
+            },
+            "children": [],
+            "text": "",
+            "transform": "none",
+            "element": {
+              "aid": "sh/1wr6dcb6",
+              "id": "3",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "name": "Content-Placeholder-3-5",
+            "position": {
+              "left": 656.86,
+              "top": 213.33
+            },
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 581.33
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 371.11
+              }
+            },
+            "intrinsicSize": {
+              "width": 581.33,
+              "height": 371.11
+            },
+            "frame": {
+              "left": 656.86,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 371.11
+            },
+            "snappedFrame": {
+              "left": 656.86,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 371.11
+            },
+            "children": [],
+            "text": "",
+            "transform": "none",
+            "element": {
+              "aid": "sh/qpg7excj",
+              "id": "4",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "alignItems": "stretch",
+        "justifyItems": "stretch",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 1184.18,
+              "top": 659.24,
+              "width": 54.48,
+              "height": 25.33
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 41.33,
+              "top": 36.12,
+              "width": 1197.33,
+              "height": 109.97
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 41.33,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 371.11
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 656.86,
+              "top": 213.33,
+              "width": 581.33,
+              "height": 371.11
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

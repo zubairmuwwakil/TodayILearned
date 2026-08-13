@@ -1,0 +1,13 @@
+# Ignore Obsidian specific system folders
+.obsidian/
+.trash/
+
+# Ignore OS specific system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables / keys you might save locally
+.env
+*.pem
+*.key
+

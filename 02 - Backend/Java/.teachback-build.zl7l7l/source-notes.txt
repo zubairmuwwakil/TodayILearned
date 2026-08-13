@@ -1,0 +1,40 @@
+Official Java sources used for non-trivial claims
+
+Java Language Specification, Java SE 25, Chapter 1:
+https://docs.oracle.com/javase/specs/jls/se25/html/jls-1.html
+
+Java Language Specification, Java SE 25, §4.3.2:
+https://docs.oracle.com/javase/specs/jls/se25/html/jls-4.html#jls-4.3.2
+
+Java Language Specification, Java SE 25, §8.2:
+https://docs.oracle.com/javase/specs/jls/se25/html/jls-8.html#jls-8.2
+
+Java Language Specification, Java SE 25, §8.4.8:
+https://docs.oracle.com/javase/specs/jls/se25/html/jls-8.html#jls-8.4.8
+
+Java Language Specification, Java SE 25, §8.8.7:
+https://docs.oracle.com/javase/specs/jls/se25/html/jls-8.html#jls-8.8.7
+
+Java Language Specification, Java SE 25, §15.12.4.4:
+https://docs.oracle.com/javase/specs/jls/se25/html/jls-15.html#jls-15.12.4.4
+
+OpenJDK JEP 513, Flexible Constructor Bodies:
+https://openjdk.org/jeps/513
+
+Dev.java, Objects, Classes, Interfaces, Packages, and Inheritance:
+https://dev.java/learn/oop/
+
+Local sources
+
+User rubric:
+/Users/zub/.codex/attachments/21f3b6ca-3867-4e1c-a4da-c6c84c873c39/pasted-text.txt
+
+User personal notes:
+/Users/zub/.codex/attachments/36d2e877-2f13-4381-b4e7-0876b1ba60b2/pasted-text.txt
+
+Relevant workspace notes:
+/Users/zub/Library/CloudStorage/OneDrive-Personal/Documents/Obsidian/50 Resources/Sofware Engineering/Java/07 - Object-Oriented Programming/Polymorphism.md
+/Users/zub/Library/CloudStorage/OneDrive-Personal/Documents/Obsidian/50 Resources/Sofware Engineering/Java/05.1 - Methods/Method Overriding.md
+/Users/zub/Library/CloudStorage/OneDrive-Personal/Documents/Obsidian/50 Resources/Sofware Engineering/Java/07 - Object-Oriented Programming/01 - Inheritance/03-Inheritance-and-Constructors.md
+
+The disregarded earlier draft was not used as a content source.
