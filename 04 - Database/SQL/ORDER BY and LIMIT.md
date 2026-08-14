@@ -75,25 +75,7 @@ From a blank query tool, against `students`, write four queries from memory and 
 
 #flashcards/sql/ordering
 
-In ORDER BY a, b DESC — which columns sort descending?
-?
-Only b. Direction is per column and defaults to ASC. To reverse both, write ORDER BY a DESC, b DESC.
-
-Where do NULLs sort in Postgres by default?
-?
-Last on ASC, first on DESC — Postgres treats NULL as larger than any value. Override with NULLS FIRST / NULLS LAST. Not portable across engines.
-
-Why is LIMIT without ORDER BY a bug?
-?
-No ORDER BY means no defined row order, so you get N rows but not reliably the same N. Order depends on physical layout and query plan.
-
-Why does deep OFFSET pagination get slow, and what replaces it?
-?
-Skipped rows are still computed and sorted, then thrown away. Use keyset pagination: WHERE id > :lastSeenId ORDER BY id LIMIT n.
-
-What's the Postgres keyword for "first N rows", and which one is wrong?
-?
-LIMIT n (with OFFSET m). TOP is SQL Server. The ANSI form, also supported, is FETCH FIRST n ROWS ONLY.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 3, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

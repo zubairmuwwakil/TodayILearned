@@ -72,21 +72,7 @@ From memory, write a minimal `@RestController` with **one GET** at `/users/{id}`
 
 #flashcards/spring/annotations
 
-@PathVariable vs @RequestParam — what does each bind?
-?
-@PathVariable binds a URI path segment (/users/{id}); @RequestParam binds a query-string param (?q=...). The Day-16 notes had these backwards.
-
-@SpringBootApplication bundles which three annotations?
-?
-@Configuration + @EnableAutoConfiguration + @ComponentScan.
-
-@RestController is shorthand for which two annotations?
-?
-@Controller + @ResponseBody — so handler return values become the response body (e.g. JSON).
-
-Why annotate a class @Repository beyond just marking it a bean?
-?
-It enables persistence-exception translation — vendor SQLExceptions become Spring's DataAccessException hierarchy.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Interleaving Quiz items 1/2, 3, 5, 7 removed — one question, one home. Answers live in the quiz's collapsed callouts. %%
 
 @Service / @Repository / @Controller — what are they fundamentally?
 ?

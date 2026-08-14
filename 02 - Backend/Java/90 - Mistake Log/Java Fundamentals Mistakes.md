@@ -70,15 +70,16 @@ if (age = 18) { // wrong
 
 **Examples**
 
-```text
-Question: When do Java fields get default values?
-Answer: Fields get defaults when not explicitly initialized. Local variables do not.
-```
-
-```text
-Question: What causes switch fall-through?
-Answer: Missing break statements after cases.
-```
+> [!answer]- Two format examples (collapsed — their answers are Recall Questions 2 and 3 below)
+> ```text
+> Question: When do Java fields get default values?
+> Answer: Fields get defaults when not explicitly initialized. Local variables do not.
+> ```
+>
+> ```text
+> Question: What causes switch fall-through?
+> Answer: Missing break statements after cases.
+> ```
 
 **Non-Examples**
 

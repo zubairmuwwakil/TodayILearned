@@ -76,25 +76,11 @@ From a blank page, draw the stack from a user's click down to stored bytes, labe
 
 #flashcards/sql/dbms
 
-Distinguish data, database and DBMS.
-?
-Data = raw values. Database = an organised collection of them. DBMS = the software that creates, manages and mediates access. Postgres is a DBMS; bptn is a database.
-
-What are the five components of a database system?
-?
-Hardware, software, data, procedures, and the database access language (SQL). You write the last two.
-
-Which DBMS function justifies its existence over a folder of files?
-?
-Concurrency and recovery — many simultaneous users without corruption, plus restoration to a consistent state after a crash. That's where ACID lives.
-
 What's the practical difference between OLTP and OLAP systems?
 ?
 OLTP (operational) is tuned for many small concurrent transactions. OLAP (analytical) is tuned for large scans and aggregation over huge row counts.
 
-Who defined the relational model and when?
-?
-E. F. Codd at IBM — CACM paper 1970 (internal report 1969). Every RDBMS still implements his model.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 1, 2, 3/4, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

@@ -47,7 +47,8 @@ public class Main {
 }
 ```
 
-**Answer:** `Dog`, because the runtime object type controls overridden instance-method dispatch.
+> [!answer]- Answer
+> `Dog`, because the runtime object type controls overridden instance-method dispatch.
 
 ## Trace
 

@@ -85,29 +85,7 @@ Then write a **seventh** query designed to return zero rows for the wrong reason
 
 #flashcards/sql/querying
 
-Why does WHERE col = NULL return no rows?
-?
-Three-valued logic: any comparison with NULL yields NULL (unknown), never TRUE, and WHERE keeps only TRUE. Use IS NULL / IS NOT NULL.
-
-Why does NOT IN (1, 5, NULL) always return zero rows?
-?
-It expands to col <> 1 AND col <> 5 AND col <> NULL. That last term is NULL, and TRUE AND NULL = NULL, so nothing is ever TRUE. Use NOT EXISTS instead.
-
-In LIKE patterns, what do % and _ match — and how do you go case-insensitive in Postgres?
-?
-% = any sequence including empty; _ = exactly one character. Case-insensitive is ILIKE (a Postgres extension).
-
-With integers a=2, b=3, what is b / a — and why?
-?
-1. Integer division truncates toward zero (no rounding). Cast to numeric for 1.5. Silent wrong answers in percentage calculations.
-
-In WHERE a = 1 OR a = 2 AND b = 3, how does SQL group the conditions?
-?
-AND binds tighter than OR, so it's a = 1 OR (a = 2 AND b = 3). Always parenthesise when mixing them.
-
-What makes a WHERE predicate non-sargable?
-?
-Wrapping the indexed column in a function/expression, or a leading-wildcard LIKE '%x'. The index can't be used, forcing a full scan.
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 2, 3, 4, 6, 7, 8 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

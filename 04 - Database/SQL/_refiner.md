@@ -18,7 +18,7 @@ Parameters for the [[Refiner Spec (Graduate)]]. **Only what differs for SQL live
 - **Flashcard tag:** `#flashcards/sql/<topic>`
 - **Output template:** *(none — use the generic skeleton in the spec)*
 
-> **Raw source for this domain:** the session captures under `20 Areas/Education/Obsidi Academy/Sessions/Java/Day 13 Jul 23/Data & Databases/`, `Day 14 jul 24/` (SQL Commands, normalization, ERDs) and `Day 15 jul 25/` (indexing, JDBC). Graduated SQL notes land in `04 - Database/SQL/`. If you ever relocate an existing note, **move it** (don't copy) to keep one home per item.
+> **Raw source for this domain:** the session captures under `20 Areas/Career/Obsidi Academy/Sessions/Java/Day 13 Jul 23/Data & Databases/`, `Day 14 jul 24/` (SQL Commands, normalization, ERDs) and `Day 15 jul 25/` (indexing, JDBC). Graduated SQL notes land in `04 - Database/SQL/`. If you ever relocate an existing note, **move it** (don't copy) to keep one home per item.
 
 ## Correctness checklist (SQL)
 

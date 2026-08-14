@@ -29,12 +29,11 @@ Prompt:
 What is the output of 10 / 3 and 10 % 3?
 ```
 
-Answer:
-
-```java
-System.out.println(10 / 3); // 3
-System.out.println(10 % 3); // 1
-```
+> [!answer]- Answer (this is also Recall Question 15 — attempt it from memory first)
+> ```java
+> System.out.println(10 / 3); // 3
+> System.out.println(10 % 3); // 1
+> ```
 
 ## Trace
 

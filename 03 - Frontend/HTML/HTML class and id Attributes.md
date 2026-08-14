@@ -111,25 +111,7 @@ Run against the HTML checklist in `_refiner.md`:
 
 #flashcards/html/attributes
 
-Why can `id` be a link target but `class` cannot?
-?
-Because a fragment link must resolve to **exactly one** element, and `id` is the attribute constrained to be **unique in the document**. `class` is many-to-many by design, so there'd be no single destination.
-
-What is the first thing to check when a CSS rule or an in-page link silently fails to match?
-?
-**Capitalisation** — `class` and `id` values are case-sensitive, unlike tag names and attribute names. `#Pricing` will not find `id="pricing"`.
-
-What happens if two elements share the same `id`?
-?
-It's invalid HTML, and every id-resolution path takes **only the first match** — `getElementById`, fragment links, and `label for` all silently ignore the second. No error is raised.
-
-Which fragment link works without any matching `id` on the page?
-?
-`href="#top"` (and the empty `href="#"`) — the spec defines both as scrolling to the top of the document.
-
-Why prefer classes over ids for styling?
-?
-**Specificity.** An `id` selector outranks any number of class selectors, so id-based styles are hard to override later and force escalation. Style with classes; reserve `id` for identity and link targets.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 2, 3, 4, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

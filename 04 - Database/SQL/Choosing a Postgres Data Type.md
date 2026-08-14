@@ -80,25 +80,7 @@ From a blank file, write `CREATE TABLE` for an `orders` table with six columns o
 
 #flashcards/sql/data-types
 
-Why must money never be stored as real or double precision?
-?
-They're binary floating point — inexact. Rounding error compounds across sums and ledgers stop balancing. Use numeric/decimal, which is exact.
-
-In Postgres, what's the performance difference between varchar(n), varchar and text?
-?
-None — they're stored identically. varchar(n) only adds a length check. Choose on semantics: a real business limit vs no natural limit.
-
-What does timestamptz actually store?
-?
-An absolute instant, normalised to UTC, converted on input/output by the session TimeZone. It does NOT store a time zone. Default to it over plain timestamp.
-
-GENERATED ALWAYS AS IDENTITY vs serial — which is current, and what does ALWAYS enforce?
-?
-IDENTITY is standard SQL and current (PG 10+); serial is legacy. ALWAYS rejects an explicit inserted value unless you write OVERRIDING SYSTEM VALUE.
-
-How does an enum type sort, and why is it hard to change?
-?
-By declaration order, not alphabetically. Changing it needs ALTER TYPE ADD VALUE; removing or reordering means recreating the type and rewriting dependent columns.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 2, 3, 4, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

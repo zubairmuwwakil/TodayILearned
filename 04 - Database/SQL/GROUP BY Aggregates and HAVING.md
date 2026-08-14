@@ -82,29 +82,7 @@ Predict the result set — rows and values — **before** running it.
 
 #flashcards/sql/aggregation
 
-What is the logical evaluation order of SQL clauses?
-?
-FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. SELECT runs second-to-last despite being written first.
-
-Why can't you put an aggregate condition in WHERE?
-?
-WHERE runs before GROUP BY, so the groups don't exist yet. WHERE filters rows going in; HAVING filters groups coming out.
-
-Can you use a SELECT alias in WHERE? In ORDER BY?
-?
-Not in WHERE or HAVING (they run before SELECT) — repeat the expression. Yes in ORDER BY and GROUP BY in Postgres.
-
-COUNT(*) vs COUNT(col) — what's the difference?
-?
-COUNT(*) counts every row including NULLs. COUNT(col) counts only rows where col IS NOT NULL. The usual reason two counts disagree.
-
-What does SUM() return over zero rows, and how do you defend against it?
-?
-NULL, not 0 (COUNT returns 0). Wrap it: COALESCE(SUM(x), 0), or the NULL propagates through later arithmetic.
-
-What does HAVING do with no GROUP BY?
-?
-Treats the entire table as a single group — returns one row if the condition holds, and no rows if it doesn't.
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 1, 2, 3, 5, 6, 7 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

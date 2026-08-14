@@ -69,17 +69,7 @@ From memory: (a) annotate two beans, one singleton (default) and one prototype; 
 
 #flashcards/spring/scopes
 
-In Spring, what does "singleton" scope mean — and what is it NOT?
-?
-One instance per IoC container (shared/cached). NOT the GoF "one per JVM" — a second container has its own instance.
-
-Inject a prototype bean into a singleton — how many prototype instances do you get?
-?
-One, fixed when the singleton is created. Use ObjectProvider / @Lookup / a scoped proxy for a fresh one per use.
-
-Why can prototype beans surprise you on lifecycle?
-?
-The container creates them but doesn't manage their destruction — no destroy callbacks run for prototype-scoped beans.
+%% Deduped 2026-08-14 red-line sweep: 3 cards restating Retrieval Prompts 1, 2, 3 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

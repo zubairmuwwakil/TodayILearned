@@ -111,29 +111,7 @@ Ran the Maven checklist from `Maven/_refiner.md`:
 
 #flashcards/maven/fundamentals
 
-Why can a Spring Boot dependency omit its <version> tag?
-?
-The spring-boot-starter-parent POM pins versions via dependencyManagement, so children inherit a mutually compatible set.
-
-Where does Maven look for a dependency first, and when does it use the network?
-?
-The local repository (~/.m2/repository) first; it only reaches central/remote if the artifact is absent, then caches it locally.
-
-Two dependencies pull different versions of the same library — which one wins?
-?
-The nearest definition in the dependency tree (fewest hops), not the highest version number. Equal depth means first declared wins.
-
-Why does `mvn install` also compile and test, and why add `clean`?
-?
-Lifecycle phases are cumulative, so install runs validate→compile→test→package→verify→install. `clean` is a separate lifecycle that deletes target/ so you don't package stale classes.
-
-What does <scope>test</scope> actually do, and what happens if you drop it?
-?
-It keeps the dependency off the runtime classpath. Dropping it promotes the dependency to compile scope, so it ships inside your artifact — silently, with no error.
-
-What do groupId, artifactId, and version each identify?
-?
-Who owns it (reverse-domain namespace), which project, and which build — together the GAV, an artifact's globally unique address.
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 1, 2, 3, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

@@ -100,29 +100,7 @@ Run against the HTML checklist in `_refiner.md`:
 
 #flashcards/html/forms
 
-A form field renders fine, is labelled correctly, and its value never reaches the server. What's missing?
-?
-The **`name`** attribute. A control without `name` is excluded from the submitted form data — `id` makes the label work, `name` is what puts the value in the payload.
-
-On a labelled input, what does each of `for`, `id`, `name` do?
-?
-`for` (on the label) targets the **`id`**; that pairing is the association. `name` is the **key sent to the server**. Labelling and submission are independent wirings.
-
-What `type` does a `<button>` default to inside a form?
-?
-**`type="submit"`** — so an unlabelled `<button>` submits the form and navigates. Use `type="button"` for JS-only buttons, and always be explicit.
-
-Why is `required` / `type="email"` not real validation?
-?
-It's **client-side only** and trivially bypassed via DevTools or a direct `curl`/Postman request. It's a UX affordance; the **server must revalidate everything**.
-
-Where does a `<textarea>`'s value live, and why is that different from `<input>`?
-?
-In its **content between the tags** — which is why `<textarea>` is a paired tag and `<input>` is void. A `value` attribute on a textarea does nothing.
-
-What makes a set of radio buttons one mutually-exclusive group, and how does a screen-reader user learn the question?
-?
-They **share the same `name`** (each with its own `id` + label). Wrap them in `<fieldset>` with a `<legend>` so AT announces the group's question with each option.
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 1, 2, 4, 5, 6, 7 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

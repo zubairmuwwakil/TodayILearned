@@ -82,21 +82,7 @@ Ran the Spring `_refiner` checklist:
 
 #flashcards/spring/security
 
-Authentication vs authorization — the one-line distinction?
-?
-AuthN = "who are you?" (verify identity). AuthZ = "what may you do?" (grant/deny access). Authentication runs first.
-
-`401` vs `403` — which is which?
-?
-401 Unauthorized = not authenticated (misnamed; missing/invalid credentials). 403 Forbidden = authenticated but not authorized.
-
-Why must authentication precede authorization?
-?
-Authorization decisions read the identity and authorities that authentication established — no identity, nothing to authorize.
-
-In Spring Security, which machinery does AuthN vs AuthZ?
-?
-AuthN: AuthenticationManager/ProviderManager. AuthZ: authorization filter / method security (`@PreAuthorize`) via AuthorizationManager (legacy AccessDecisionManager).
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 1, 2, 3, 4 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

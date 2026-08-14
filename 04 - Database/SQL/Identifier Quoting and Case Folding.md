@@ -80,25 +80,7 @@ From a blank query tool, no source, run this experiment and **predict every resu
 
 #flashcards/sql/identifiers
 
-In Postgres, what do double quotes mean, and what do single quotes mean?
-?
-Double = a delimited identifier (an object's name). Single = a string literal (a value). Using double quotes around a value gives "column ... does not exist".
-
-What happens to an unquoted identifier in Postgres?
-?
-It's folded to LOWER case. (The SQL standard says fold to upper — Postgres deviates.) So students, Students and STUDENTS are one object.
-
-You created a column as "courseId". Why does SELECT courseId fail?
-?
-The stored name is literally courseId; unquoted courseId folds to courseid, which doesn't exist. Case-sensitive names must be quoted at every single reference.
-
-Why does snake_case never need quoting in Postgres?
-?
-It's already lowercase, so it survives case folding unchanged and round-trips identically. That's why it's the community default over camelCase.
-
-How do you write an apostrophe inside a SQL string literal?
-?
-Double it: 'O''Brien'. (Or use dollar-quoting: $$O'Brien$$.)
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 2, 3, 4, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

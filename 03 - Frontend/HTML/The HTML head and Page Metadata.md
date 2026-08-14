@@ -101,25 +101,7 @@ Run against the HTML checklist in `_refiner.md`:
 
 #flashcards/html/metadata
 
-Why must `<meta charset>` appear within the first 1024 bytes?
-?
-The parser can't decode bytes into characters until it knows the encoding, so it **prescans** only the opening bytes. Declared later, the browser must discard its work and **re-parse** the document.
-
-What does the viewport meta tag actually do?
-?
-Lays the page out at the **device's real width** at 100% zoom. Without it, mobile browsers assume a ~980px virtual viewport and scale the page down — so responsive CSS never takes effect.
-
-What does a plain `<script src>` in `<head>` do to page load, and how do `defer` and `async` differ?
-?
-Plain: **blocks parsing** during download *and* execution. `defer`: parallel download, executes after parsing, **in document order**. `async`: parallel download, executes on arrival, **order not guaranteed**.
-
-What are the two constraints on `<base>`?
-?
-**At most one per document**, and it must come **before any element that uses a URL** — otherwise earlier elements already resolved against the old base. It rewrites every relative URL in the document.
-
-How is `<template>` different from a `display: none` element?
-?
-`<template>` content is **inert** — not rendered, scripts don't run, images aren't fetched. A hidden element is fully live and still downloads its resources. Template content is cloned by JS.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 2, 3, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

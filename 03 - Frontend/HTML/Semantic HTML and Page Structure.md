@@ -154,21 +154,7 @@ Run against the HTML checklist in `_refiner.md`:
 
 #flashcards/html/semantics
 
-Why does using `<div>` instead of `<header>`/`<nav>`/`<main>` hurt a screen-reader user, even though the page looks identical?
-?
-Because semantic elements map to **ARIA landmark roles**, which assistive tech exposes as a jump menu. A `<div>` has no role, so it never appears there — the user loses the ability to skip to a region and must traverse the page linearly.
-
-What is the test for choosing `<article>` over `<section>`?
-?
-The **syndication test** — `<article>` is content that still makes sense republished on its own (blog post, review, comment). `<section>` is a thematic grouping inside a document.
-
-Why is a bare `<section>` not exposed as a landmark, when `<nav>` and `<main>` are?
-?
-Because `<section>` only becomes a `region` landmark when it has an **accessible name** (`aria-label` / `aria-labelledby`). Unnamed sections are skipped, since a page may contain many with no way to tell them apart.
-
-What are the two rules about `<main>`?
-?
-**One per document** (extras only if `hidden`), and it must **not be nested** inside `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>`.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 1, 2, 3, 4 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

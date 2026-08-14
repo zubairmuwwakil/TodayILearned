@@ -89,25 +89,7 @@ Ran the Spring `_refiner` checklist:
 
 #flashcards/spring/security
 
-Why does Spring Security use servlet filters instead of Spring MVC interceptors?
-?
-Filters run in the container *before* `DispatcherServlet`, so security wraps the whole request (all endpoints + error dispatches). Interceptors run later, inside MVC — too late to be the perimeter.
-
-What does `DelegatingFilterProxy` do?
-?
-It's a container-registered servlet filter that delegates to a Spring-managed bean (`FilterChainProxy`), bridging the servlet container and the Spring application context.
-
-For one request, how many `SecurityFilterChain`s run, and which?
-?
-Exactly one — the *first* whose `RequestMatcher` matches; the rest are skipped.
-
-How does a filter *block* a request?
-?
-By NOT calling `chain.doFilter(...)` — instead it responds (401/403) or redirects. Calling `doFilter` passes control to the next filter.
-
-Servlet lifecycle in one line?
-?
-Initialized once → serves many (often concurrent) requests → destroyed at shutdown. Not per-request.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 2, 3, 4, 6, 7 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

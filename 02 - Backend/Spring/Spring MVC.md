@@ -103,29 +103,11 @@ Ran the Spring checklist from `Spring/_refiner.md`:
 
 #flashcards/spring/spring-mvc
 
-In Spring MVC, which component consults HandlerMapping to pick the handler?
-?
-The DispatcherServlet — before any controller runs. The controller never selects its own mapping.
-
-After the View renders, where does the output go?
-?
-Back through the DispatcherServlet, which writes the response to the client. It does not return to the Controller.
-
-Why is the DispatcherServlet called a front controller?
-?
-Every request enters through one servlet, so routing, auth, logging, and exception handling can be applied in a single place instead of in every controller.
-
 What does a @Controller method return, and what does Spring do with it?
 ?
 A view name (a String) plus a populated Model; the ViewResolver turns that name into an actual View, which renders the model.
 
-What step disappears when you use @RestController instead of @Controller?
-?
-View resolution. @RestController = @Controller + @ResponseBody, so the returned object is serialized to JSON by an HttpMessageConverter straight into the response body.
-
-Why is a controller holding business logic a design smell?
-?
-The Service layer owns business logic and sits outside MVC; the controller's job is only to coordinate — call a service, fill the model, name a view.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 2, 3, 4, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

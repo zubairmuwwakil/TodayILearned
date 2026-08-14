@@ -107,29 +107,7 @@ Ran the Spring checklist from `Spring/_refiner.md`, plus the SQL checklist for t
 
 #flashcards/spring/jdbc
 
-Why must you never call rs.next() inside RowMapper.mapRow?
-?
-JdbcTemplate has already advanced the cursor to the row being mapped; calling next() again skips a row per iteration, so you silently lose about half your results.
-
-What kind of exception is Spring's DataAccessException, and why does that matter?
-?
-Unchecked (extends RuntimeException), so you aren't forced to try/catch — and it's a hierarchy that translates vendor-specific SQL error codes into portable types like DuplicateKeyException.
-
-query(...) vs queryForObject(...) — which one for a single expected row, and what does it throw on zero rows?
-?
-queryForObject; it throws EmptyResultDataAccessException on zero rows and IncorrectResultSizeDataAccessException on more than one.
-
-What does the int returned by jdbc.update(...) mean, and why check it?
-?
-Rows affected. An UPDATE or DELETE matching nothing returns 0 and succeeds silently — that return value is the only signal that the row wasn't there.
-
-What does the DAO pattern buy beyond tidiness?
-?
-The persistence layer can change without touching business logic, and the business layer becomes testable with a fake DAO instead of a real database.
-
-JdbcTemplate or CrudRepository — which is Spring JDBC, and what's the trade?
-?
-JdbcTemplate is Spring JDBC: you own the SQL and the mapping. CrudRepository is Spring Data: no boilerplate for ordinary CRUD, less control over the query.
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 1, 2, 3, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

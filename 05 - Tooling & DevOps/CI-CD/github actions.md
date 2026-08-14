@@ -166,41 +166,11 @@ Verified against upstream documentation (checked 2026-08-13), with every change 
 
 #flashcards/cicd/github-actions
 
-What is the difference between `uses:` and `run:` in a workflow step?
-?
-`uses:` pulls in a prebuilt, versioned action written by someone else; `run:` executes a shell command on the runner.
-
-What state does a GitHub Actions runner start in, and what does that force you to do?
-?
-A fresh, disposable VM with nothing from any previous run — so the workflow must explicitly check out the code and install the JDK. It is also why "works on my machine" cannot happen there.
-
-A test fails, and you also lose the test report. Why, and what fixes it?
-?
-Steps carry an implicit success() condition, so the publish step is skipped once mvn test fails. Add an explicit condition such as if: ${{ !cancelled() }}.
-
-Why prefer `!cancelled()` over `always()` on a reporting step?
-?
-always() also runs when you deliberately cancelled the workflow, wasting runner minutes and publishing a misleading report. !cancelled() covers success and failure but respects cancellation.
-
-Why is `if: !cancelled()` a YAML error while `if: (!cancelled())` is valid?
-?
-A leading ! is YAML's tag indicator, so a plain scalar cannot start with one. The parenthesis makes the value start with an ordinary character.
-
 In YAML 1.1, what does the key `on:` parse to, and why doesn't it break GitHub Actions?
 ?
 The boolean true — YAML 1.1 treats on/off/yes/no as booleans (the "Norway problem"). GitHub's parser handles it; third-party linters and hand-rolled scripts are what trip over it.
 
-Who writes the TEST-*.xml files that the publish action reads?
-?
-The Maven Surefire plugin, during the test phase, into target/surefire-reports/. The action only reads them — it never runs tests itself.
-
-Why declare `permissions:` in the workflow instead of setting the repository to read/write?
-?
-The repo-wide toggle grants write to every workflow forever, including ones added later. A workflow-level block is least-privilege, version-controlled, and reviewable in a pull request.
-
-What does SPRING_PROFILES_ACTIVE: test prevent in CI?
-?
-The app booting against a dev datasource that doesn't exist on a clean runner, failing every test on connection refused before any assertion runs.
+%% Deduped 2026-08-14 red-line sweep: 8 cards restating Retrieval Prompts 1, 2, 3, 4, 5, 6, 8, 9 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

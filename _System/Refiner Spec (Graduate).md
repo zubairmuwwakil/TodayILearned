@@ -31,15 +31,15 @@ The artifact is exactly four things (per the contract's "refiner's repurposed jo
 3. **one rebuild-from-memory drill**, and
 4. a **correctness check**.
 
-Plus two supporting outputs: **flashcards** (only from understood material) and a **TIL-candidate pointer** to the git repo when the work is showable.
+Plus four supporting outputs: **flashcards** (only from understood material), a **TIL-candidate pointer** to the git repo when the work is showable, a **pretest** for the next session, and a **transfer bank** that feeds the weekly interleaved quiz.
 
 If you ever find yourself producing prose meant to be *reread*, stop — that's the fluency illusion, the lowest-utility activity there is. The output is a *test surface*, not a reference.
 
 ## When to run it
 
-- **Same session as capture**, on **one** note at a time. Never bulk-graduate (collector's fallacy at machine speed).
+- **Same session as capture**, on **one raw capture at a time**. Splitting that capture into its atomic concept notes is *not* bulk-graduation; machine-processing a backlog of several days or captures in one pass *is*. Never bulk-graduate (collector's fallacy at machine speed).
 - Only on material Zub has **already worked through** — Graduate *retains and tests* understanding, it does not create it.
-- Source notes are the raw chronological captures under `20 Areas/Education/Obsidi Academy/Sessions/<Track>/Day NN/`. The graduated artifact lands in the domain's target folder (see the domain config).
+- Source notes are the raw chronological captures under `20 Areas/Career/Obsidi Academy/Sessions/<Track>/Day NN/`. The graduated artifact lands in the domain's target folder (see the domain config).
 
 ## Inputs — read the domain's `_refiner.md`
 
@@ -61,6 +61,7 @@ Work through these in order. Every step must leave Zub something to **generate o
 **Gate — is this genuinely new to Zub?**
 - **New topic** → produce the worked example (step ①). Novices learn faster from a correct worked example + self-explanation than from a blank page.
 - **Already understood** → *skip the worked example* and go straight to prompts + drill. Re-showing known material is just rereading.
+- **New but conceptual / little code** (architecture, process, theory) → minimize or skip the worked example; weight toward retrieval prompts + flashcards, and make the rebuild drill a *reconstruct-from-memory* task (e.g. redraw the architecture and every relationship from a blank page; success = matches the source).
 
 **① Worked example** *(new topics only)*
 - Minimal and correct. Annotate with **subgoal labels** (what each block accomplishes), not line-by-line syntax noise.
@@ -69,7 +70,7 @@ Work through these in order. Every step must leave Zub something to **generate o
 
 **② Retrieval prompts — answers WITHHELD**
 - Question-shaped. Bias **why/how** over **what** (elaborative interrogation).
-- Answers go in a collapsed `> [!answer]-` callout **or** as a spaced-repetition card — **never on the same line or the line directly below the question.** Regenerating from memory is the entire point.
+- Answers go in a collapsed `> [!answer]-` callout — never as text visible beside the question in reading view. The collapsed callout is the **only** sanctioned adjacency (that is what "never place an answer next to a prompt" means: never *visible* next to it). If an item works better as a flashcard, move the **whole question** to `## Flashcards` — a question lives as a withheld prompt *or* as a card, never both. Regenerating from memory is the entire point.
 - Interleave where useful: "which one do I reach for *here*?" across confusable siblings.
 
 **③ One rebuild-from-memory drill**
@@ -98,6 +99,15 @@ Work through these in order. Every step must leave Zub something to **generate o
 - If the artifact is showable (working code, a demonstrable skill), add a single line flagging it as a **TIL candidate** for the public git repo.
 - **Link/pointer only — never copy content across the git↔Obsidian seam.** One home per item by job: doing/showing → git; remembering → Obsidian.
 
+**Pretest** *(supporting output)*
+- 5–8 questions Zub attempts **before the next session**, closed-book, guessing encouraged — wrong guesses are the mechanism (pretesting effect), so **no answers anywhere**.
+- Aim most at what the next session will likely cover (syllabus, or the natural next step from today's material); 2–3 should push just past it.
+- Lives in the graduated note under `## Pretest (next session)`.
+
+**Transfer bank** *(supporting output)*
+- 1–2 problems that use the concept in a context **not shown in the source** — change the surface story, not just the values. If the material is code-shaped, at least one should be "this snippet/design is subtly wrong — find and fix it."
+- **No solutions, ever.** These are not exercises for today — they are fodder the weekly quiz ([[Interleaver — Weekly Quiz Prompt]]) draws from each note's `## Transfer Bank`.
+
 ## Shared rules (the red lines)
 
 These are non-negotiable and apply to every domain. Full rationale in [[AI Operating Manual (READ ME)]].
@@ -105,9 +115,10 @@ These are non-negotiable and apply to every domain. Full rationale in [[AI Opera
 - **Name-based links only** — `[[Note]]` / `[[Note#Heading]]`. Never path/URL-style internal links.
 - **Single source of truth** — surface a shared fact with `![[Note#Heading]]`. Never copy it. No concept lives in two places.
 - **Never place an answer next to its prompt** — collapse it or move it to an SRS card.
+- **One question, one home within a note** — a flashcard must never restate a question already posed in Retrieval Prompts, Pretest, or Transfer Bank. A question lives as a withheld prompt *or* as a card, never both.
 - **Verify all code; flag <90% confidence** — AI improves the OUTPUT, never does the THINKING.
 - **One home per item across git↔Obsidian** — link, never duplicate.
-- **One note at a time; Zub prunes** — never bulk-generate notes or cards.
+- **One raw capture at a time; Zub prunes** — atomic-splitting that capture is fine; never machine-process a backlog or bulk-generate cards.
 - **Preserve desirable difficulty** — if the interaction feels frictionless, he's offloading. Make him generate.
 
 ## Generic output skeleton (the floor)
@@ -116,11 +127,13 @@ The domain-agnostic minimum. A domain may override it via an **Output template**
 
 ```markdown
 ## Worked Example        %% subgoal-labelled + one EiPE line; omit if already understood %%
-## Retrieval Prompts     %% answers withheld — collapsed [!answer]- or SR card, never inline %%
+## Retrieval Prompts     %% answers: collapsed [!answer]- only; card-worthy questions move whole to ## Flashcards %%
 ## Rebuild Drill         %% blank-file task + explicit success criterion, no solution %%
 ## Correctness Check     %% domain checklist result; ⚠-flag anything <90% %%
 ## Flashcards            %% #flashcards/<domain>/<topic> — atomic, why/concept, 5-min rule %%
 ## TIL candidate         %% pointer to git if showable — link, never copy %%
+## Pretest (next session) %% 5–8 prequestions, NO answers — attempted before next class %%
+## Transfer Bank         %% 1–2 unfamiliar-context problems, NO solutions — weekly quiz fodder %%
 ## Links                 %% name-based; ![[embed]] shared facts, don't restate %%
 ```
 
@@ -129,7 +142,7 @@ The domain-agnostic minimum. A domain may override it via an **Output template**
 1. Create `<Domain>/_refiner.md` from the schema used by the existing configs (`04 - Database/SQL/_refiner.md` in any domain folder is the model).
 2. Fill exactly three things: **target folder**, **flashcard tag**, **correctness checklist**.
 3. Optionally point **Output template** at a richer per-domain note if one exists.
-4. Change nothing in *this* spec — that's the whole point of the split.
+4. Update only the two rosters — this spec's Links list and the DOMAIN ROUTING table in [[Graduate — Agent Prompt]]. The machinery itself changes nothing — that's the whole point of the split.
 
 ## Links
 
@@ -139,3 +152,5 @@ The domain-agnostic minimum. A domain may override it via an **Output template**
 - Domains still missing a config (create per *Adding a new domain*, don't improvise): **CSS**, **Eclipse**
 - Java output template: [[Java Concept Note]]
 - Operational prompt (hand raw notes to an agent): [[Graduate — Agent Prompt]]
+- Spoken exam prompt (Session A): [[Examiner — Spoken Exam Prompt]]
+- Weekly quiz prompt (Session C): [[Interleaver — Weekly Quiz Prompt]]

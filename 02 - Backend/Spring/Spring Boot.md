@@ -92,21 +92,7 @@ Ran the Spring checklist from `Spring/_refiner.md`:
 
 #flashcards/spring/spring-boot
 
-What three annotations does @SpringBootApplication combine?
-?
-@SpringBootConfiguration (a @Configuration specialization), @EnableAutoConfiguration, and @ComponentScan.
-
-Where does Spring Boot's component scanning begin, and what bug does that cause?
-?
-At the package of the @SpringBootApplication class, scanning downward. Anything in a sibling package is never registered as a bean — so the entry-point class belongs in the root package.
-
-Why doesn't auto-configuration override beans you defined yourself?
-?
-Auto-configuration classes are conditional (@ConditionalOnMissingBean and friends) — they back off as soon as you define your own bean. Explicit configuration always wins.
-
-What does "embedded server" change about deployment?
-?
-Tomcat ships as a library inside the jar, so `java -jar app.jar` starts both the app and the HTTP server — no separate server install and no .war deployment.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 1, 2, 3, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 If only the PostgreSQL driver is on the classpath and no datasource URL is set, what does Spring Boot do?
 ?

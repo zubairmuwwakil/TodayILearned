@@ -92,25 +92,7 @@ Ran the Spring checklist from `Spring/_refiner.md`:
 
 #flashcards/spring/configuration
 
-Beyond keeping secrets out of the repo, why externalize configuration at all?
-?
-So the artifact you tested is the artifact you ship — the environment becomes a runtime parameter instead of a code change requiring a rebuild.
-
-In Spring Boot, which wins: a command-line argument, an OS environment variable, or a value in the packaged application.yml?
-?
-Command line > OS environment variable > packaged application.yml. Precedence runs outside-in, so a deployment can override baked-in config without rebuilding.
-
-What does the colon do in `${DB_USER:postgres}`?
-?
-Supplies a default value used when the environment variable is absent. Omitting the default (`${DB_PASSWORD}`) makes a missing value fail startup — the right choice for secrets.
-
-How does the OS environment variable SPRING_DATASOURCE_PASSWORD reach the property spring.datasource.password?
-?
-Spring Boot's relaxed binding — uppercase the name and turn dots/dashes into underscores. Env vars and yml properties are the same namespace.
-
-Why can a wrongly-indented line in application.yml be worse than a syntax error?
-?
-Indentation IS the structure in YAML, so a bad indent usually produces a different valid property rather than an error — the app starts and silently ignores your setting. (Tabs, by contrast, are illegal outright.)
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 3, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

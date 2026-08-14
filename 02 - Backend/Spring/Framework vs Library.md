@@ -63,13 +63,7 @@ From memory: (a) write the **one-sentence test** that separates a library from a
 
 #flashcards/spring/frameworks
 
-What is the one-question test for library vs framework?
-?
-Who calls whom — you call a library; a framework calls your code (inversion of control).
-
-Why is "inversion of control" the defining trait of a framework?
-?
-Because the framework, not your code, drives the execution flow — it decides when to invoke the code you supply.
+%% Deduped 2026-08-14 red-line sweep: 2 cards restating Retrieval Prompts 1, 2 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

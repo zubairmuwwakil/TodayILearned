@@ -107,21 +107,7 @@ From a **blank page**, draw the flow of two different requests — `/student` an
 
 #flashcards/java/design-patterns
 
-What does a front controller guarantee that a "always call checkAuth() first" convention cannot?
-?
-That the check cannot be skipped — it's on the only path that reaches any handler, rather than depending on every developer remembering it.
-
-Why separate the Dispatcher from the Front Controller?
-?
-They change for different reasons: the front controller owns what happens to every request, the dispatcher owns which handler serves this one. Adding a route shouldn't touch the auth code.
-
-Which Spring class is the front controller, and what tells you so from its name?
-?
-DispatcherServlet — every HTTP request enters through it, and the name reflects that it dispatches each request to the right handler.
-
-What is the main cost of the front controller pattern?
-?
-It's a single point of failure and a bottleneck — every request pays for whatever it does, and the class tends to accumulate responsibilities.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 1, 2, 3, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## Mini Practice
 

@@ -98,25 +98,7 @@ Ran `Spring/_refiner.md` checklist + verified every annotation claim (spec step 
 
 #flashcards/spring/jpa
 
-Why does JPA need `@Entity` on a class before it can persist it?
-?
-`@Entity` marks the class as a managed persistence type, so the ORM maps each instance to a table row and generates its CRUD SQL.
-
-When do you actually need `@Column` instead of letting JPA default?
-?
-Only when the column differs from the default — a different name, or constraints like nullable / length / unique. Matching names need no `@Column`.
-
-Why let `@GeneratedValue` / the database assign the primary key instead of setting it in Java?
-?
-The database owns key generation (identity / sequence), which avoids the collisions and races that manual assignment can't safely prevent.
-
-What is the difference between JPA's `@Transient` and Java's `transient` keyword?
-?
-`@Transient` excludes a field from DB persistence; `transient` excludes a field from Java serialization. Different subsystems.
-
-Why reach for `@Version` on an entity?
-?
-It enables optimistic locking — the version is checked on update, so concurrent modifications are detected instead of silently overwritten.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 2, 3, 4, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

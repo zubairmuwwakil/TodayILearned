@@ -72,21 +72,7 @@ Why is the relational model called "relational"?
 ?
 Because a table IS a relation (a set of tuples). NOT because tables relate to each other — that's a common misreading.
 
-What are degree and cardinality of a table?
-?
-Degree = number of attributes (columns). Cardinality = number of tuples (rows). INSERT changes cardinality; ALTER TABLE changes degree.
-
-What guarantees the order of rows returned by a query?
-?
-Only an explicit ORDER BY. A relation is an unordered set — Postgres may return any order, and an UPDATE physically moves the row.
-
-Why is fullName not atomic, and which normal form cares?
-?
-It can be meaningfully split into firstName + lastName. Atomicity is the requirement of first normal form (1NF).
-
-NULL is not equal to what?
-?
-Anything — including another NULL. That's why `= NULL` never matches and you need IS NULL / IS NOT NULL.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 2, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

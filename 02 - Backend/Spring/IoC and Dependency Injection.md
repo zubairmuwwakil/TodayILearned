@@ -87,17 +87,7 @@ From a blank file, rewrite `WeatherController` to use **constructor injection** 
 
 #flashcards/spring/ioc
 
-IoC vs DI — which is the principle and which is the pattern?
-?
-IoC is the principle (framework controls creation/flow); DI is the pattern that implements it (dependencies injected from outside the class).
-
-Why prefer constructor injection over field injection in Spring?
-?
-final/immutable deps, object always valid after construction, fails fast on a missing dependency, and easy to unit-test without reflection.
-
-What is a Spring bean?
-?
-An object whose creation, wiring, and lifecycle are managed by the Spring IoC container (ApplicationContext).
+%% Deduped 2026-08-14 red-line sweep: 3 cards restating Retrieval Prompts 1, 3, 4 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 Why does DI make code "loosely coupled"?
 ?

@@ -151,29 +151,7 @@ Run against the HTML checklist in `_refiner.md`:
 
 #flashcards/html/accessibility
 
-Why is `<div onclick="x()">` not an acceptable substitute for `<button onclick="x()">`?
-?
-Three separate failures: it's **not in the tab order** (unreachable by keyboard), it has **no `button` role** (AT doesn't announce it as a control), and it has **no keyboard activation** (a real button fires on Enter *and* Space).
-
-On a labelled form field, what is `for` tied to — and what is `name` for?
-?
-`for` targets the input's **`id`**; that pairing is the label association. `name` is the **key sent to the server** and plays no part in labelling.
-
-When should an image have `alt=""`, and why is that different from omitting `alt`?
-?
-`alt=""` when the image is **purely decorative** — it tells AT to skip it. **Omitting** `alt` leaves the image unnamed, so AT may announce the file name. Empty = deliberate silence; missing = oversight.
-
-What is the first rule of ARIA?
-?
-**Don't use ARIA if a native HTML element already does the job.** Use it to add what HTML can't express (e.g. `aria-label` naming one of several `<nav>`s), never to re-declare what a native element already provides.
-
-Why does `<html lang="en">` matter for accessibility?
-?
-It selects the screen reader's **pronunciation/voice**. Without it, AT uses the user's default language and may read English with the wrong phonetics.
-
-Having a native `<button>` gives you the *role* for free. What must you still supply?
-?
-An **accessible name**. An icon-only button announces as "button" with nothing else — it needs `aria-label` or visually-hidden text. Role and name are separate requirements.
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 1, 2, 3, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

@@ -97,25 +97,7 @@ Ran the Git checklist from `Git & GitHub/_refiner.md`:
 
 #flashcards/git/workflow
 
-Why is no-direct-push-to-main a technical safeguard rather than just team etiquette?
-?
-It forces every change through CI + human review before it becomes shared history, which keeps main continuously deployable and keeps anyone from ever needing to rewrite shared history.
-
-Why pull from main before pushing your feature branch, rather than after?
-?
-So merge conflicts surface locally where you have the context to fix them — instead of at PR time on the reviewer's plate — and so your push isn't rejected as non-fast-forward.
-
-What is the difference between git fetch and git pull?
-?
-fetch only updates remote-tracking refs and never touches your working tree; pull = fetch + integrate into the current branch, which can raise conflicts.
-
-On a feature branch with an upstream set, what does a bare `git pull` actually pull?
-?
-Your own feature branch from the remote — not main. To pick up teammates' merged work you must say `git pull origin main`.
-
-Why is rebasing shared/pushed commits dangerous?
-?
-Rebase rewrites commits; rewriting history that others have already pulled breaks their branches and forces them into recovery work.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 2, 3, 4, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

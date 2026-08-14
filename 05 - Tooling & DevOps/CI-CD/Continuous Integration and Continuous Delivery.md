@@ -84,29 +84,7 @@ Verified independently:
 
 #flashcards/cicd/concepts
 
-What is the single structural difference between Continuous Delivery and Continuous Deployment?
-?
-Where the human sits. Delivery automatically produces a release-ready build but a person approves the push to production; Deployment has no gate — every passing change ships automatically.
-
-Why does merge *frequency* matter in CI, rather than just merging eventually?
-?
-Both conflict surface and diagnostic distance grow non-linearly with divergence. Frequent small merges keep conflicts mechanical and keep "the build broke" attributable to one small change.
-
-Name the four standard CI/CD pipeline stages in order.
-?
-Source, Build, Test, Deploy — ordered so the cheapest, fastest checks fail first.
-
-A Build failure and a Test failure tell you different things. What?
-?
-Build failing means it doesn't compile or a dependency didn't resolve — nothing about your logic. Test failing means it compiles fine and behaves wrong.
-
-Why is a green CI build a weaker guarantee than it sounds?
-?
-Green means nothing that was checked failed, not that the code is correct. With no tests, Maven still reports BUILD SUCCESS on compilation alone.
-
-What does CI provide that "everyone runs the tests locally" cannot?
-?
-A clean reproducible environment with no local state, execution that can't be skipped, and testing of the merged result — two branches that each pass alone can still break together.
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 1, 2, 4, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

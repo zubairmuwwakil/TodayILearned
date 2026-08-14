@@ -82,25 +82,7 @@ Then, before executing, write down the five `INSERT` statements that should each
 
 #flashcards/sql/ddl
 
-When are you forced to use a table constraint instead of a column constraint?
-?
-When the constraint spans more than one column: composite PK, multi-column UNIQUE, composite FK, or a CHECK comparing two columns.
-
-A column is UNIQUE but nullable. How many rows can hold NULL there?
-?
-Many. NULL = NULL is never true, so NULLs are never duplicates. Add NOT NULL, or UNIQUE NULLS NOT DISTINCT (PG15+).
-
-You have CHECK (age > 0) and insert age = NULL. Accepted or rejected?
-?
-Accepted. NULL > 0 is NULL, not FALSE, and CHECK only rejects an explicitly FALSE condition. Add NOT NULL to actually require it.
-
-DELETE FROM t vs TRUNCATE t — name two behavioural differences.
-?
-TRUNCATE takes no WHERE and fires no per-row ON DELETE triggers (and can RESTART IDENTITY). DELETE can filter and does fire triggers, but is slower.
-
-What does NOT VALID do on a foreign key?
-?
-Skips checking rows already in the table; new and updated rows are still enforced. Lets you add a constraint to a big live table without a blocking scan.
+%% Deduped 2026-08-14 red-line sweep: 5 cards restating Retrieval Prompts 1, 3, 4, 5, 7 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

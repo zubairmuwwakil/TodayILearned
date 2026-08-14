@@ -68,25 +68,11 @@ From a blank file, write the DDL for a two-table pair of your own (not courses/s
 
 #flashcards/sql/keys
 
-A PRIMARY KEY constraint is equivalent to which two constraints?
-?
-NOT NULL + UNIQUE. Exactly one per table, but it may span multiple columns (composite).
-
 Does a FOREIGN KEY column have to be NOT NULL?
 ?
 No. A nullable FK is legal and is how you model an optional relationship. NOT NULL must be declared separately.
 
-Must a foreign key point at a primary key?
-?
-No — at any UNIQUE or PRIMARY KEY column set. Uniqueness is the actual requirement; PK is just the usual choice.
-
-Which referential action deletes the children along with the parent, and which blanks their reference?
-?
-ON DELETE CASCADE deletes the children. ON DELETE SET NULL blanks the child's FK (column must be nullable).
-
-Why can a table have many foreign keys but only one primary key?
-?
-The PK answers "how is this row identified" — one answer. An FK answers "which other row does this point at" — a row can reference many different parents.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 1, 3, 5, 6 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

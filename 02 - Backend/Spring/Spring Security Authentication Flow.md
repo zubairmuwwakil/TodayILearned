@@ -100,33 +100,11 @@ Ran the Spring `_refiner` checklist against this note:
 
 #flashcards/spring/security
 
-What is `ProviderManager`?
-?
-The default `AuthenticationManager`. It delegates to an ordered list of `AuthenticationProvider`s and uses the first whose `supports()` matches the token type.
-
-Why does `DaoAuthenticationProvider` need a `PasswordEncoder`?
-?
-Stored passwords are encoded (e.g. BCrypt); it compares the presented *raw* password against the *encoded* one. It never handles or stores plaintext.
-
-What does `UserDetailsService.loadUserByUsername` return, and what's in it?
-?
-A `UserDetails` — username, **encoded** password, granted authorities, and account-status flags.
-
-Where is the authenticated user stored for the rest of a request, and with what default strategy?
-?
-In the `SecurityContext`, held by `SecurityContextHolder` — a `ThreadLocal` by default.
-
-Which step ends *authentication*, and what handles *authorization* instead?
-?
-Authentication ends when `ProviderManager` returns an authenticated `Authentication`. Authorization is separate — `AuthorizationManager` (modern) / `AccessDecisionManager` (legacy).
-
 What does `HttpSecurity` configure?
 ?
 Per-request HTTP security — URL authorization rules, the filter chain, security headers, CORS/CSRF, and form login/logout.
 
-`UserDetails` vs your JPA `User` entity — what's the split?
-?
-`UserDetails` is the security-facing **interface** (only what auth needs); the entity stays domain-only and is adapted to it (e.g. `CustomUserDetails`).
+%% Deduped 2026-08-14 red-line sweep: 6 cards restating Retrieval Prompts 3, 4, 5, 6, 7 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 ## TIL candidate
 

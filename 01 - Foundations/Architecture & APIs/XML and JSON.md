@@ -100,21 +100,7 @@ Ran the checklist from `Architecture & APIs/_refiner.md`:
 
 #flashcards/architecture/data-formats
 
-What is the difference between well-formed XML and valid XML?
-?
-Well-formed = syntactically legal (one root, tags closed and nested, entities escaped). Valid = well-formed AND conforming to a DTD/XSD schema.
-
-What are JSON's six value types, and which everyday type is missing?
-?
-string, number, boolean, null, object, array. There is no date type — dates travel as strings, conventionally ISO-8601.
-
-Name three things legal in a JavaScript object literal but rejected by a JSON parser.
-?
-Unquoted keys, single-quoted strings, and trailing commas. (Comments too — JSON has none.)
-
-Why does XML require exactly one root element while JSON does not?
-?
-XML is a tree, so two roots leave the parser with no unambiguous parent. JSON's top level is just a value, and objects and arrays are both self-delimiting.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 2, 3, 4, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 Why is XML more verbose than JSON for list data?
 ?

@@ -183,23 +183,19 @@ Create a `HashSet<Integer>` from `10, 20, 20, 30`, then predict each result befo
 2. Check whether it contains `20`. **Expected output:** `true`.
 3. Remove `10`, then print whether adding `30` succeeds. **Expected output:** `false` (`30` is already present).
 
-<details>
-<summary>Answer</summary>
-
-```java
-Set<Integer> numbers = new HashSet<>();
-numbers.add(10);
-numbers.add(20);
-numbers.add(20);
-numbers.add(30);
-
-System.out.println(numbers.size());       // 3
-System.out.println(numbers.contains(20)); // true
-numbers.remove(10);
-System.out.println(numbers.add(30));      // false
-```
-
-</details>
+> [!answer]- Answer
+> ```java
+> Set<Integer> numbers = new HashSet<>();
+> numbers.add(10);
+> numbers.add(20);
+> numbers.add(20);
+> numbers.add(30);
+>
+> System.out.println(numbers.size());       // 3
+> System.out.println(numbers.contains(20)); // true
+> numbers.remove(10);
+> System.out.println(numbers.add(30));      // false
+> ```
 
 ## Mistake Log
 When you miss one, add it to [[Collections Mistake Log]] as: wrong output → minimal repro → misconception → recall-question form → fix.

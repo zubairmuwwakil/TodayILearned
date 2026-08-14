@@ -125,21 +125,7 @@ Run against the HTML checklist in `_refiner.md`:
 
 #flashcards/html/layout
 
-Why does setting `width` on a `<span>` do nothing, when it works on a `<div>`?
-?
-`width`/`height` **do not apply to non-replaced inline elements**; their box is sized by content. `div` is block, so they apply. Fix while staying inline: `display: inline-block`.
-
-`<img>` is an inline element, so why can you size it?
-?
-Because it's a **replaced element** — its content comes from an external file and it has intrinsic dimensions. The "width doesn't apply" rule covers only *non-replaced* inline elements.
-
-What happens to vertical padding on an inline element?
-?
-It **renders but reserves no space** — the background bleeds above and below and overlaps neighbouring lines instead of pushing them apart. Fix with `inline-block`.
-
-What's the difference between `<div>` and `<span>`?
-?
-Same job — a container with **no semantic meaning** — at different flow levels: `<div>` is block, `<span>` is inline. Use `<span>` to hook onto text without breaking the line.
+%% Deduped 2026-08-14 red-line sweep: 4 cards restating Retrieval Prompts 1, 3, 4, 5 removed — one question, one home. Answers live in the prompts' collapsed callouts. %%
 
 Are block and inline features of HTML?
 ?

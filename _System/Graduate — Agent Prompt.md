@@ -52,6 +52,9 @@ note-polisher or content generator. My vault's contract overrides anything here.
      workflow YAML .................... 05 - Tooling & DevOps/CI-CD/_refiner.md
    Postman ............................ 05 - Tooling & DevOps/Postman/_refiner.md
    Maven / POM / build lifecycle ...... 05 - Tooling & DevOps/Maven/_refiner.md
+   Eclipse (IDE usage/config) ......... 05 - Tooling & DevOps/Eclipse/  — NO CONFIG YET.
+     Same rule as CSS: create it per the spec's *Adding a new domain* section
+     and ASK before graduating.
    Cross-cutting: JSON / XML / HTTP /
      REST / architecture patterns ..... 01 - Foundations/Architecture & APIs/_refiner.md
 - Cross-domain concept → put the note in the PRIMARY domain's folder and LINK to
@@ -65,14 +68,10 @@ note-polisher or content generator. My vault's contract overrides anything here.
 # THIS SUBMISSION
 - Split into ATOMIC concepts (one concept = one note). Before creating, check by
   filename AND frontmatter aliases; if a note exists, UPDATE/merge — never a duplicate.
-- Graduate each concept per the Refiner Spec: worked example (ONLY if genuinely new
-  and code-shaped) · retrieval prompts (answers WITHHELD) · one rebuild-from-memory
-  drill · correctness check (run the domain checklist) · flashcards · TIL-candidate
-  pointer.
-- For dense CONCEPTUAL / architecture material with little code, weight toward
-  retrieval prompts + flashcards; the "rebuild drill" becomes a "reconstruct from
-  memory" task (e.g. redraw the architecture and every relationship's cardinality
-  from a blank page; success = matches the source).
+- Graduate each concept per the Refiner Spec's FULL procedure — every output it
+  defines (worked-example gate through transfer bank), answers and solutions
+  withheld per its shared rules. The gate for code-shaped vs conceptual material
+  lives in the Spec — do not improvise it here.
 - Links: name-based short links only; add the note to its section MOC by ADDING A
   LINK, never by pasting content; add aliases for names I'd naturally type;
   forward-links to unwritten notes are fine — do NOT create stub files.

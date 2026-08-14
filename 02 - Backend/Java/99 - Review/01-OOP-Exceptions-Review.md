@@ -61,18 +61,14 @@ public class Main {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-```text
-A
-B
-C
-```
-
-The constructor chain reaches the highest superclass first, then returns downward.
-
-</details>
+> [!answer]- Answer
+> ```text
+> A
+> B
+> C
+> ```
+>
+> The constructor chain reaches the highest superclass first, then returns downward.
 
 ## Code Tracing 2 — `super`
 
@@ -100,15 +96,11 @@ public class Main {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-```text
-Parent
-Child
-```
-
-</details>
+> [!answer]- Answer
+> ```text
+> Parent
+> Child
+> ```
 
 ## Code Tracing 3 — Static Counter
 
@@ -134,14 +126,10 @@ public class Main {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-```text
-3
-```
-
-</details>
+> [!answer]- Answer
+> ```text
+> 3
+> ```
 
 ## Code Tracing 4 — Multiple Catches
 
@@ -164,17 +152,13 @@ public class Main {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-```text
-Invalid number
-Finished
-```
-
-`parseInt` fails first, so division is never attempted.
-
-</details>
+> [!answer]- Answer
+> ```text
+> Invalid number
+> Finished
+> ```
+>
+> `parseInt` fails first, so division is never attempted.
 
 ## Find the Mistake 1
 
@@ -187,12 +171,8 @@ class Employee extends Person {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-`super(name)` must be the first constructor statement.
-
-</details>
+> [!answer]- Answer
+> `super(name)` must be the first constructor statement.
 
 ## Find the Mistake 2
 
@@ -206,12 +186,8 @@ try {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-The `ArithmeticException` catch is unreachable. Put it before `Exception`.
-
-</details>
+> [!answer]- Answer
+> The `ArithmeticException` catch is unreachable. Put it before `Exception`.
 
 ## Find the Mistake 3
 
@@ -221,12 +197,8 @@ public static void printName() {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-A static method has no `this`. It needs an object reference or the method should be an instance method.
-
-</details>
+> [!answer]- Answer
+> A static method has no `this`. It needs an object reference or the method should be an instance method.
 
 ## Find the Mistake 4
 
@@ -237,12 +209,8 @@ public boolean equals(Person other) {
 }
 ```
 
-<details>
-<summary>Answer</summary>
-
-This does not override `Object.equals(Object)`. The parameter must be `Object`, and `hashCode()` should also be overridden.
-
-</details>
+> [!answer]- Answer
+> This does not override `Object.equals(Object)`. The parameter must be `Object`, and `hashCode()` should also be overridden.
 
 ## Implementation Exercise
 

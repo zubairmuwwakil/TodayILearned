@@ -61,15 +61,11 @@ System.out.println(names);
 System.out.println(names.size());
 ```
 
-<details>
-<summary>Answer</summary>
-
-```text
-[Maya, Jordan]
-2
-```
-
-</details>
+> [!answer]- Answer
+> ```text
+> [Maya, Jordan]
+> 2
+> ```
 
 ## Trace 2 — Integer Removal
 
@@ -88,22 +84,18 @@ numbers.remove(1);
 System.out.println(numbers);
 ```
 
-<details>
-<summary>Answer</summary>
-
-`remove(1)` selects the `remove(int index)` overload.
-
-```text
-[5, 15, 1]
-```
-
-To remove the value `1`:
-
-```java
-numbers.remove(Integer.valueOf(1));
-```
-
-</details>
+> [!answer]- Answer
+> `remove(1)` selects the `remove(int index)` overload.
+>
+> ```text
+> [5, 15, 1]
+> ```
+>
+> To remove the value `1`:
+>
+> ```java
+> numbers.remove(Integer.valueOf(1));
+> ```
 
 ## Trace 3 — Iterator
 
@@ -129,14 +121,10 @@ while (iterator.hasNext()) {
 System.out.println(values);
 ```
 
-<details>
-<summary>Answer</summary>
-
-```text
-[3, 6]
-```
-
-</details>
+> [!answer]- Answer
+> ```text
+> [3, 6]
+> ```
 
 ## Trace 4 — LinkedList Ends
 
@@ -152,14 +140,10 @@ queue.addFirst("Z");
 System.out.println(queue);
 ```
 
-<details>
-<summary>Answer</summary>
-
-```text
-[Z, B, C]
-```
-
-</details>
+> [!answer]- Answer
+> ```text
+> [Z, B, C]
+> ```
 
 ---
 
@@ -171,14 +155,10 @@ System.out.println(queue);
 ArrayList<int> scores = new ArrayList<>();
 ```
 
-<details>
-<summary>Correction</summary>
-
-```java
-ArrayList<Integer> scores = new ArrayList<>();
-```
-
-</details>
+> [!answer]- Correction
+> ```java
+> ArrayList<Integer> scores = new ArrayList<>();
+> ```
 
 ## Problem 2
 
@@ -186,16 +166,12 @@ ArrayList<Integer> scores = new ArrayList<>();
 List<String> names = new List<>();
 ```
 
-<details>
-<summary>Correction</summary>
-
-```java
-List<String> names = new ArrayList<>();
-```
-
-`List` is an interface and cannot be instantiated directly.
-
-</details>
+> [!answer]- Correction
+> ```java
+> List<String> names = new ArrayList<>();
+> ```
+>
+> `List` is an interface and cannot be instantiated directly.
 
 ## Problem 3
 
@@ -203,16 +179,12 @@ List<String> names = new ArrayList<>();
 Iterator<String> iterator = new Iterator<>();
 ```
 
-<details>
-<summary>Correction</summary>
-
-```java
-Iterator<String> iterator = names.iterator();
-```
-
-The collection returns an iterator implementation object.
-
-</details>
+> [!answer]- Correction
+> ```java
+> Iterator<String> iterator = names.iterator();
+> ```
+>
+> The collection returns an iterator implementation object.
 
 ## Problem 4
 
@@ -224,26 +196,22 @@ for (String name : names) {
 }
 ```
 
-<details>
-<summary>Correction</summary>
-
-```java
-Iterator<String> iterator = names.iterator();
-
-while (iterator.hasNext()) {
-    if (iterator.next().isBlank()) {
-        iterator.remove();
-    }
-}
-```
-
-Or:
-
-```java
-names.removeIf(String::isBlank);
-```
-
-</details>
+> [!answer]- Correction
+> ```java
+> Iterator<String> iterator = names.iterator();
+>
+> while (iterator.hasNext()) {
+>     if (iterator.next().isBlank()) {
+>         iterator.remove();
+>     }
+> }
+> ```
+>
+> Or:
+>
+> ```java
+> names.removeIf(String::isBlank);
+> ```
 
 ## Problem 5
 
@@ -251,14 +219,10 @@ names.removeIf(String::isBlank);
 import java.util.*
 ```
 
-<details>
-<summary>Correction</summary>
-
-```java
-import java.util.*;
-```
-
-</details>
+> [!answer]- Correction
+> ```java
+> import java.util.*;
+> ```
 
 ---
 
@@ -322,82 +286,40 @@ Give a 30-second explanation for each prompt:
 List<String> names = new ArrayList<>();
 ```
 
-A strong answer should mention:
-
-- `List` is the reference type and interface
-- `ArrayList` is the concrete class
-- `new` creates an object
-- the diamond operator infers `String`
-- the variable can use the `List` contract
-
+> [!answer]- A strong answer should mention
+> - `List` is the reference type and interface
+> - `ArrayList` is the concrete class
+> - `new` creates an object
+> - the diamond operator infers `String`
+> - the variable can use the `List` contract
 ## Prompt 2
 
 ```java
 Iterator<String> iterator = names.iterator();
 ```
 
-A strong answer should mention:
-
-- `Iterator` is an interface
-- `iterator()` is a method on the collection
-- the method creates or returns an implementation object
-- the iterator tracks traversal state
-- `hasNext` checks and `next` retrieves/advances
-
+> [!answer]- A strong answer should mention
+> - `Iterator` is an interface
+> - `iterator()` is a method on the collection
+> - the method creates or returns an implementation object
+> - the iterator tracks traversal state
+> - `hasNext` checks and `next` retrieves/advances
 ## Prompt 3
 
 ArrayList vs LinkedList
 
-A strong answer should mention:
-
-- backing array vs linked nodes
-- indexed access
-- shifting vs relinking
-- node lookup cost
-- memory overhead
-- `ArrayList` as the normal default
-
+> [!answer]- A strong answer should mention
+> - backing array vs linked nodes
+> - indexed access
+> - shifting vs relinking
+> - node lookup cost
+> - memory overhead
+> - `ArrayList` as the normal default
 ---
 
 # Spaced-Repetition Prompts
 
-Convert these into flashcards.
-
-## Card 1
-
-**Question:** Why can’t Java use `ArrayList<int>`?
-
-**Answer:** Generic type arguments must be reference types. Use the wrapper class `Integer`; Java can autobox `int` values into `Integer` objects.
-
-## Card 2
-
-**Question:** What object exists in `List<String> x = new ArrayList<>();`?
-
-**Answer:** An `ArrayList<String>` object exists. `x` is a `List<String>` reference to it.
-
-## Card 3
-
-**Question:** Why doesn’t `ArrayList` implement `Iterator`?
-
-**Answer:** The collection itself stores data; a separate iterator object tracks one traversal. `ArrayList.iterator()` returns an object whose class implements `Iterator`.
-
-## Card 4
-
-**Question:** What does `Iterator.remove()` remove?
-
-**Answer:** The last element returned by `next()`.
-
-## Card 5
-
-**Question:** Why is `LinkedList.get(index)` slow?
-
-**Answer:** It must traverse node references from the beginning or end until it reaches the requested position.
-
-## Card 6
-
-**Question:** Which list should normally be chosen first?
-
-**Answer:** `ArrayList`, unless a measured or clear use case requires a different structure.
+%% Deduped 2026-08-14 red-line sweep: 6 draft cards with visible answers removed — they restated Retrieval Practice questions 6, 9/10, 12, 14, 17 and 19 (one question, one home), and their answers live in the owning concept notes (02 - ArrayList Fundamentals, 03 - List Interface and Polymorphism, 04 - Iterator Interface, 05/06 - LinkedList). Full card text preserved in the sweep report. %%
 
 ---
 

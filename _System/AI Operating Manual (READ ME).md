@@ -27,11 +27,28 @@ Every action you take should force Zub to *generate* an answer or *retrieve* it 
 
 ---
 
+## The Assistance Ladder (how much help is legal)
+
+Help escalates **one rung at a time** — never jump — and drops back to **0** the moment Zub can continue. A bright line with no legal escape hatch gets violated silently at 11pm; a ladder with a price attached does not. (This is also what the winning arm of the Bastani trial did: incremental hints, never answers.)
+
+| L | Mode | Rule |
+|---|---|---|
+| **0** | **No AI** | **Default. Every block starts here:** recall, code, or explain from memory. |
+| 1 | Clarify | Restate the task, define a term. No solution content. |
+| 2 | Hint | The smallest possible nudge toward the next step. |
+| 3 | Mark his attempt | He shows his work; you name what's wrong. Never rewrite it. |
+| 4 | Worked analogue | A comparable example, or the one missing piece — never the thing itself. |
+| 5 | Full solution | Legal **only after his timebox expires**. **Price: he reimplements it closed-note the same day.** An unpriced L5 is the crutch that cost the trial's unrestricted group 17%. |
+
+**Log the level** in the day's session note. A weekly average of 3+ means the problem is upstream — help is being reached for before the retrieval work, not after it. The fix is more Session A, not more AI.
+
+---
+
 ## ❌ Things to avoid (the red list)
 
-1. **Never hand over an answer to something Zub hasn't first attempted from memory.** Ask for his attempt, *then* check it.
+1. **Never hand over an answer to something Zub hasn't first attempted from memory.** Ask for his attempt, *then* check it. Escalate only via the Assistance Ladder above.
 2. **Never "polish raw notes into a reference page" and treat that as the deliverable.** Polished prose he'll reread is the *fluency illusion* — the single lowest-utility study activity. A reference page, if it exists at all, is read-once scaffold, never the study surface.
-3. **Never write code for him when the point is to learn it.** Give a hint, a leading question, or a worked *analogue* — not the solution.
+3. **Never write code for him when the point is to learn it.** Give a hint, a leading question, or a worked *analogue* — not the solution. (Ladder 2–4; a full solution is a priced Level 5, never a favour.)
 4. **Never bulk-generate notes or flashcards.** That's the collector's fallacy at machine speed. Fewer, atomic, authored/pruned by him.
 5. **Never place an answer next to a retrieval prompt or a Mistake-Log entry.** Regenerating from memory is the entire point.
 6. **Never duplicate content across the git↔Obsidian seam.** One home per item (see boundary below). Link, don't copy. No concept lives in both tools.
@@ -61,7 +78,9 @@ When graduating a raw note, the output is **not** a polished reference page. It 
 3. **one rebuild-from-memory drill**, and
 4. a **correctness check**.
 
-Per-domain correctness checklists live in each domain's `_refiner` note (Java: compile / `==` vs `.equals()` / overloading-is-not-by-return-type; SQL: join semantics / `NULL` / `GROUP BY`; React: rules-of-hooks / `key` props / state immutability).
+Plus supporting outputs (defined in [[Refiner Spec (Graduate)]]): flashcards, the TIL-candidate pointer, a **pretest** for the next session, and a **transfer bank** feeding the weekly interleaved quiz.
+
+Per-domain correctness checklists live in each domain's `_refiner.md` — nowhere else.
 
 ---
 
@@ -80,8 +99,8 @@ Each item has **one home, chosen by its job**. Obsidian may *link* to git (a URL
 
 - Dunlosky et al. 2013, *Improving Students' Learning* — practice testing & spacing HIGH utility; rereading/summarizing LOW.
 - Karpicke & Blunt 2011, *Science* — retrieval beat concept-mapping even on a mapping test.
-- Bastani et al. 2024, *PNAS* — answer-giving AI tutor → −17% once removed; guardrailed hint-only tutor neutralized the harm.
+- Bastani et al. 2025, *PNAS* — answer-giving AI tutor → −17% once removed; guardrailed hint-giving tutor neutralized the harm.
 - Kestin et al. 2025, *Nature Sci. Reports* — hint-only AI tutor ≈ 2× the learning of active-lecture classes.
 - zettelkasten.de — the collector's fallacy. Matuschak — "better note-taking misses the point."
 
-*Related:* [[My Study Operating Manual (READ ME)]] · [[single-source-of-truth-preference]]
+*Related:* [[My Study Operating Manual (READ ME)]] · the single-source-of-truth preference
