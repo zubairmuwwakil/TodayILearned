@@ -5,4 +5,4 @@ cmd + /
 
 geberate random text 
 
-write lorem then hit tab 
+write lorem then hit tab x
