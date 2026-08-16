@@ -105,10 +105,12 @@ Ran the checklist from `Architecture & APIs/_refiner.md`:
 Why is XML more verbose than JSON for list data?
 ?
 XML has no native array type — repetition is expressed as repeated sibling elements, each with an opening and closing tag.
+<!--SR:!2026-08-19,3,250-->
 
 Is JSON "free" to parse in Java the way it is in a browser?
 ?
 No. Browsers have JSON.parse built in; Java needs a library (Jackson). Spring Boot just configures Jackson for you so it's invisible.
+<!--SR:!2026-08-19,3,250-->
 
 ## TIL candidate
 
