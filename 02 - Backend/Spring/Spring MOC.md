@@ -50,7 +50,7 @@ Intentional unresolved links; write them when the material lands (no stub files)
 
 - [[The Spring Framework]] — framework-wide overview (Boot itself is now written)
 - [[Object Relational Mapping (ORM)]] · [[Hibernate]] · [[Spring Data JPA]] — from Day 18
-- **Security (from Day 20):** [[JWT]] — token auth via a custom filter · [[RBAC vs ABAC]] — role- vs attribute-based access control
+- **Security (from Day 20):** [[teachback jwt]] — token auth via a custom filter · [[RBAC vs ABAC]] — role- vs attribute-based access control
 
 ## Spring Hacks (doing, not remembering)
 

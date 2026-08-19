@@ -34,7 +34,7 @@ Scope: the **username/password authentication** path — from the request hittin
 Everything below is a **test surface**. Answer the prompts closed-book first; the full component-by-component flow is the **collapsed key** in the Reconstruct Drill. Don't peek until you've attempted it from a blank page.
 
 ## Retrieval Prompts
-
+  
 1. When a login request arrives, *where* does Spring Security intercept it relative to your `@Controller`s, and what is that interceptor made of?
 > [!answer]- reveal
 > **Before** your controllers, down in the servlet layer — a `SecurityFilterChain`, an ordered chain of servlet `Filter`s. Each filter is a gate; one of them is the authentication filter. Mechanism lives in [[Spring Security Filter Chain]].
@@ -116,4 +116,4 @@ Showable when you build it: FeedApp's `CustomUserDetailsService` + `WebSecurityC
 - Distinction: [[Authentication vs Authorization]] — the boundary this note corrects
 - Related: [[IoC and Dependency Injection]] — the providers/services are DI-wired beans
 - Map: [[Spring MOC]]
-- Backlog (forward-link, not yet written): [[JWT]] — FeedApp's token path, handled by a custom filter that sets the `SecurityContext` directly
+- Backlog (forward-link, not yet written): [[teachback jwt]] — FeedApp's token path, handled by a custom filter that sets the `SecurityContext` directly

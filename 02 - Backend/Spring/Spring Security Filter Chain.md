@@ -101,4 +101,4 @@ Showable when you build it: FeedApp's `JwtAuthorizationFilter` is a **custom fil
 - Distinction: [[Authentication vs Authorization]] — enforced by *different* filters in this chain
 - Sits in front of: [[Spring MVC]] — `DispatcherServlet` runs only after the filters pass (backlog)
 - Map: [[Spring MOC]]
-- Backlog (forward-link): [[JWT]] — the token filter you add to this chain
+- Backlog (forward-link): [[teachback jwt]] — the token filter you add to this chain

@@ -140,7 +140,7 @@ Entries marked *aka* were separate queue items naming the **same concept**; thei
 
 ### Priority — referenced 2+ times (7)
 
-- [ ] [[JWT]] — 3×
+- [ ] [[teachback jwt]] — 3×
 - [ ] [[Spring Data JPA]] — 3×
 - [ ] [[Hibernate]] — 2×
 - [ ] [[Object Relational Mapping (ORM)]] — 2×
